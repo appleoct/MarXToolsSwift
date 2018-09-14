@@ -24,12 +24,11 @@ class ViewController: UIViewController {
         view.addSubview(v)
         vv = v
 
-        view.backgroundColor = UIColor.lws_randomColor
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
 
-         MarXToolsToast().lws_toasterTopDefaultTime(msg: "网络异常,请稍后重试...")
+         MarXToolsToast().lws_toasterCenterTime(msg: "网络异常,请稍后重试...", duration: 5000)
     }
 
     override func didReceiveMemoryWarning() {

@@ -18,12 +18,6 @@
 		52E99537FF4262A2F09EAF38B7A07732 /* ToastWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB80F2DB2A790215FEFAEE04076391E /* ToastWindow.swift */; };
 		603505646339CE02A9D3E37D0C071F23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B328C818F7174443AF6A0C39F87D6E02 /* UIKit.framework */; };
 		7BF781CFA61FA949893EECE3C061363C /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC251E05D400FC759C57630BFC7931D3 /* Toast.swift */; };
-		81641A5421476AE900BB703E /* MarXToolsSwift+Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81641A5321476AE900BB703E /* MarXToolsSwift+Double.swift */; };
-		8177390E21216628003C1C90 /* MarXDesignTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8177390A21216628003C1C90 /* MarXDesignTextField.swift */; };
-		8177390F21216628003C1C90 /* MarXDesignButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8177390B21216628003C1C90 /* MarXDesignButton.swift */; };
-		8177391021216628003C1C90 /* MarXDesignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8177390C21216628003C1C90 /* MarXDesignView.swift */; };
-		8177391121216628003C1C90 /* MarXDesignLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8177390D21216628003C1C90 /* MarXDesignLabel.swift */; };
-		81B0D79B21097F35002E61F3 /* MarXToolsSwift+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B0D79A21097F35002E61F3 /* MarXToolsSwift+UIImage.swift */; };
 		8210EB2558967D307C7E9E361479CA74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F833DB77D5780F814E624D1F3A3EAF80 /* Foundation.framework */; };
 		897DAADFA85C52ACB618974C9768C0A7 /* Toast-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F4F7462C53DAAE6A1218CCFFA24AD7 /* Toast-Swift-dummy.m */; };
 		89AFE759B416603802B405EFCCCDEA70 /* MarXToolsSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE56496BC1B03E20203C90F3E8D5DA39 /* MarXToolsSwift-dummy.m */; };
@@ -101,11 +95,11 @@
 		47BDD53AA0F341B6EF68FF8C2152635E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F239F44A3812832EBB6E4FAA39A8196 /* Toaster-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toaster-dummy.m"; sourceTree = "<group>"; };
 		512DDF7AFBA207F8638B6549491DBF66 /* Pods-MarXToolsSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MarXToolsSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		51627102436D0873C950ECC573F8A8BB /* Pods_MarXToolsSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarXToolsSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51627102436D0873C950ECC573F8A8BB /* Pods_MarXToolsSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MarXToolsSwift_Tests.framework; path = "Pods-MarXToolsSwift_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54D885FA6323387037FBE23F7FB1AEC2 /* MarXToolsToast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarXToolsToast.swift; path = MarXToolsSwift/Classes/ThirdParty/Toast/MarXToolsToast.swift; sourceTree = "<group>"; };
 		56E917646E83EE2C75AEC474BAA8F1E9 /* Pods-MarXToolsSwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MarXToolsSwift_Tests-dummy.m"; sourceTree = "<group>"; };
 		5A9E984226BEBB64F89D89DDA921766B /* Pods-MarXToolsSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarXToolsSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5B023E53EE81ABF373FDD56D9FE9FA43 /* Toast_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Toast_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B023E53EE81ABF373FDD56D9FE9FA43 /* Toast_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Toast_Swift.framework; path = "Toast-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D8BBAAAD3786F59466BFD4E0C5AD66C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6298B1D95DCC37FAA4F3F46B62CE4ECF /* MarXToolsSwift+UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MarXToolsSwift+UIView.swift"; path = "MarXToolsSwift/Classes/Extensions/MarXToolsSwift+UIView.swift"; sourceTree = "<group>"; };
 		6868CD75DCB5437F6875EEB388C7F841 /* Pods-MarXToolsSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MarXToolsSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -118,23 +112,17 @@
 		7C83C78A81743E3948A4155F22846252 /* Pods-MarXToolsSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarXToolsSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7CB80F2DB2A790215FEFAEE04076391E /* ToastWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToastWindow.swift; path = Sources/ToastWindow.swift; sourceTree = "<group>"; };
 		7FABE25FB0CC3CFA717F2563598663CF /* Toast-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-umbrella.h"; sourceTree = "<group>"; };
-		81641A5321476AE900BB703E /* MarXToolsSwift+Double.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "MarXToolsSwift+Double.swift"; path = "MarXToolsSwift/Classes/Extensions/MarXToolsSwift+Double.swift"; sourceTree = "<group>"; };
-		8177390A21216628003C1C90 /* MarXDesignTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MarXDesignTextField.swift; path = MarXToolsSwift/Classes/Inherit/MarXDesignTextField.swift; sourceTree = "<group>"; };
-		8177390B21216628003C1C90 /* MarXDesignButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MarXDesignButton.swift; path = MarXToolsSwift/Classes/Inherit/MarXDesignButton.swift; sourceTree = "<group>"; };
-		8177390C21216628003C1C90 /* MarXDesignView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MarXDesignView.swift; path = MarXToolsSwift/Classes/Inherit/MarXDesignView.swift; sourceTree = "<group>"; };
-		8177390D21216628003C1C90 /* MarXDesignLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MarXDesignLabel.swift; path = MarXToolsSwift/Classes/Inherit/MarXDesignLabel.swift; sourceTree = "<group>"; };
-		81B0D79A21097F35002E61F3 /* MarXToolsSwift+UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "MarXToolsSwift+UIImage.swift"; path = "MarXToolsSwift/Classes/Extensions/MarXToolsSwift+UIImage.swift"; sourceTree = "<group>"; };
 		83194AE06897E0515950D6B85B280EA9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8578FFB543AA951AE26B8D64F5119778 /* MarXToolsFastClickButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarXToolsFastClickButton.swift; path = MarXToolsSwift/Classes/Inherit/MarXToolsFastClickButton.swift; sourceTree = "<group>"; };
 		857CA53CCEFB8A37A091D96426A03704 /* Pods-MarXToolsSwift_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarXToolsSwift_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		86F4F7462C53DAAE6A1218CCFFA24AD7 /* Toast-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-Swift-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9449848FA5C1C9F77D1CDD3605C916FC /* Pods-MarXToolsSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarXToolsSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		96DA0CFEB62B04C682930F7E5CC66E6B /* MarXToolsSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarXToolsSwift.xcconfig; sourceTree = "<group>"; };
 		9DAC369B96C5D035FB877BA6A3CFCE3D /* ToastCenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToastCenter.swift; path = Sources/ToastCenter.swift; sourceTree = "<group>"; };
 		9DAD2F9C8042F1D4E380EEBBC7A967F2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FFF6CEAC8F1FAB4FF44EF1C1B90026C /* Pods-MarXToolsSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MarXToolsSwift_Example-dummy.m"; sourceTree = "<group>"; };
-		A3397AF099653E92EC354164CC69F412 /* MarXToolsSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MarXToolsSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3397AF099653E92EC354164CC69F412 /* MarXToolsSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MarXToolsSwift.framework; path = MarXToolsSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A358EE1B74FB37ED3F56EF591CBCFF54 /* Pods-MarXToolsSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarXToolsSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A7C084A66040BB0B7160C98BD6CF0A98 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		AC67270F6538728FD156968CCE82FADC /* Toaster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Toaster.h; path = Sources/Toaster.h; sourceTree = "<group>"; };
@@ -146,8 +134,8 @@
 		D9630794D69F3E58671F60B2CC62B6B0 /* Pods-MarXToolsSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MarXToolsSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
 		DC529A4D138B34D9A748E4D78ECA0D4C /* MarXToolsPlist.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarXToolsPlist.swift; path = MarXToolsSwift/Classes/Handler/MarXToolsPlist.swift; sourceTree = "<group>"; };
 		DE3A5362ABBAB32DB628E698BD5EFAAB /* Toast-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Toast-Swift.xcconfig"; sourceTree = "<group>"; };
-		E429469DC1D8199AF4928AE3966F31E1 /* Toaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Toaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E80F2273B742A055EA71935DDDADDEA0 /* Pods_MarXToolsSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarXToolsSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E429469DC1D8199AF4928AE3966F31E1 /* Toaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Toaster.framework; path = Toaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E80F2273B742A055EA71935DDDADDEA0 /* Pods_MarXToolsSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MarXToolsSwift_Example.framework; path = "Pods-MarXToolsSwift_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E840D318F478EB67787D8BCC6D4A5443 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8D197E805CFCCFD8458DCDB51841DC5 /* Pods-MarXToolsSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MarXToolsSwift_Example.modulemap"; sourceTree = "<group>"; };
 		EC251E05D400FC759C57630BFC7931D3 /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = Toast/Toast.swift; sourceTree = "<group>"; };
@@ -333,10 +321,6 @@
 		9649BCB4E4EF2A5F072D265497B88406 /* Inherit */ = {
 			isa = PBXGroup;
 			children = (
-				8177390B21216628003C1C90 /* MarXDesignButton.swift */,
-				8177390D21216628003C1C90 /* MarXDesignLabel.swift */,
-				8177390A21216628003C1C90 /* MarXDesignTextField.swift */,
-				8177390C21216628003C1C90 /* MarXDesignView.swift */,
 				8578FFB543AA951AE26B8D64F5119778 /* MarXToolsFastClickButton.swift */,
 			);
 			name = Inherit;
@@ -362,14 +346,13 @@
 				EC251E05D400FC759C57630BFC7931D3 /* Toast.swift */,
 				67F538B5528E4CA8DB00AB45F263E764 /* Support Files */,
 			);
+			name = "Toast-Swift";
 			path = "Toast-Swift";
 			sourceTree = "<group>";
 		};
 		AACE4BC8EC096A1C8AF0A36523BC7FAC /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				81641A5321476AE900BB703E /* MarXToolsSwift+Double.swift */,
-				81B0D79A21097F35002E61F3 /* MarXToolsSwift+UIImage.swift */,
 				7B8787CDEC47D925D5F3EB2C4A01D2FD /* MarXToolsSwfit+String.swift */,
 				69881CA8DB94296815FCED4572A0B73B /* MarXToolsSwift+UIColor.swift */,
 				6298B1D95DCC37FAA4F3F46B62CE4ECF /* MarXToolsSwift+UIView.swift */,
@@ -420,6 +403,7 @@
 				7CB80F2DB2A790215FEFAEE04076391E /* ToastWindow.swift */,
 				A4D4C08BDD82DC337DA1B193807F64DE /* Support Files */,
 			);
+			name = Toaster;
 			path = Toaster;
 			sourceTree = "<group>";
 		};
@@ -618,18 +602,12 @@
 			files = (
 				34F33198B5C71F2D449F8DB55A46ACBE /* MarXToolsFastClickButton.swift in Sources */,
 				3A456848AA6C15DB422CB1B18F1F6B57 /* MarXToolsPlist.swift in Sources */,
-				8177391121216628003C1C90 /* MarXDesignLabel.swift in Sources */,
 				D57DE7D992B5C1B5EE2F694E01757833 /* MarXToolsSwfit+String.swift in Sources */,
-				81641A5421476AE900BB703E /* MarXToolsSwift+Double.swift in Sources */,
 				D420BC6C11426E6B41CC447D2DA96D5B /* MarXToolsSwift+UIColor.swift in Sources */,
 				9B9B5B81D74FAC31F247D37FA0316EE0 /* MarXToolsSwift+UIView.swift in Sources */,
 				89AFE759B416603802B405EFCCCDEA70 /* MarXToolsSwift-dummy.m in Sources */,
-				8177390F21216628003C1C90 /* MarXDesignButton.swift in Sources */,
 				3237CE13CCB1E0EEF51605199168EC74 /* MarXToolsToast.swift in Sources */,
-				8177391021216628003C1C90 /* MarXDesignView.swift in Sources */,
 				E5B420F667AC4C53541FA24E74D30430 /* MarXToolsUserDefault.swift in Sources */,
-				81B0D79B21097F35002E61F3 /* MarXToolsSwift+UIImage.swift in Sources */,
-				8177390E21216628003C1C90 /* MarXDesignTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,7 +10,7 @@ import Foundation
 import Toast_Swift
 import Toaster
 
-public var kMarXToolsToastDefaultTime = 1.5
+public var kMarXToolsToastDefaultTime = 0.5
 
 extension UIView {
     private func lws_makeToast(msg:String) {
@@ -85,11 +85,6 @@ extension UIView {
 
 
 public class MarXToolsToast: NSObject {
-    
-    public func lws_toast(msg:String){
-        lws_toasterCenterTime(msg: msg, duration: kMarXToolsToastDefaultTime)
-    }
-    
     public func lws_toasterTopDefaultTime(msg:String){
         lws_toasterTopTime(msg: msg, duration: kMarXToolsToastDefaultTime)
     }
