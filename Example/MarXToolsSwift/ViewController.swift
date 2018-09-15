@@ -28,7 +28,7 @@ class ViewController: UIViewController {
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
 
-         MarXToolsToast().lws_toasterCenterTime(msg: "网络异常,请稍后重试...", duration: 5000)
+         MarXToolsToast().lws_toasterTopDefaultTime(msg: "网络异常,请稍后重试...")
     }
 
     override func didReceiveMemoryWarning() {
