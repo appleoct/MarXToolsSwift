@@ -24,6 +24,7 @@ class ViewController: UIViewController {
         view.addSubview(v)
         vv = v
 
+        view.backgroundColor = UIColor.lws_randomColor
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

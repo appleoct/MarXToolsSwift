@@ -14,6 +14,11 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		81641A5221476AA300BB703E /* MarXToolsSwift+Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81641A5121476AA300BB703E /* MarXToolsSwift+Double.swift */; };
+		817739062121652E003C1C90 /* MarXDesignButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817739022121652E003C1C90 /* MarXDesignButton.swift */; };
+		817739072121652E003C1C90 /* MarXDesignTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817739032121652E003C1C90 /* MarXDesignTextField.swift */; };
+		817739082121652E003C1C90 /* MarXDesignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817739042121652E003C1C90 /* MarXDesignView.swift */; };
+		817739092121652E003C1C90 /* MarXDesignLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817739052121652E003C1C90 /* MarXDesignLabel.swift */; };
 		81AF75FC20F6E5B0003AB709 /* MarXToolsSwift+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AF75F620F6E5B0003AB709 /* MarXToolsSwift+UIColor.swift */; };
 		81AF75FD20F6E5B0003AB709 /* MarXToolsSwfit+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AF75F720F6E5B0003AB709 /* MarXToolsSwfit+String.swift */; };
 		81AF75FE20F6E5B0003AB709 /* MarXToolsSwift+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AF75F820F6E5B0003AB709 /* MarXToolsSwift+UIView.swift */; };
@@ -50,6 +55,11 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		658ABF7EA2F045691340512D /* Pods-MarXToolsSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarXToolsSwift_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MarXToolsSwift_Tests/Pods-MarXToolsSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		81641A5121476AA300BB703E /* MarXToolsSwift+Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MarXToolsSwift+Double.swift"; sourceTree = "<group>"; };
+		817739022121652E003C1C90 /* MarXDesignButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarXDesignButton.swift; sourceTree = "<group>"; };
+		817739032121652E003C1C90 /* MarXDesignTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarXDesignTextField.swift; sourceTree = "<group>"; };
+		817739042121652E003C1C90 /* MarXDesignView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarXDesignView.swift; sourceTree = "<group>"; };
+		817739052121652E003C1C90 /* MarXDesignLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarXDesignLabel.swift; sourceTree = "<group>"; };
 		81AF75F620F6E5B0003AB709 /* MarXToolsSwift+UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MarXToolsSwift+UIColor.swift"; sourceTree = "<group>"; };
 		81AF75F720F6E5B0003AB709 /* MarXToolsSwfit+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MarXToolsSwfit+String.swift"; sourceTree = "<group>"; };
 		81AF75F820F6E5B0003AB709 /* MarXToolsSwift+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MarXToolsSwift+UIView.swift"; sourceTree = "<group>"; };
@@ -203,6 +213,7 @@
 				81AF75F720F6E5B0003AB709 /* MarXToolsSwfit+String.swift */,
 				81AF75F820F6E5B0003AB709 /* MarXToolsSwift+UIView.swift */,
 				81B0D79821097E2F002E61F3 /* MarXToolsSwift+UIImage.swift */,
+				81641A5121476AA300BB703E /* MarXToolsSwift+Double.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -219,6 +230,10 @@
 		81CF16DB20F841E600D6831D /* Inherit */ = {
 			isa = PBXGroup;
 			children = (
+				817739022121652E003C1C90 /* MarXDesignButton.swift */,
+				817739052121652E003C1C90 /* MarXDesignLabel.swift */,
+				817739032121652E003C1C90 /* MarXDesignTextField.swift */,
+				817739042121652E003C1C90 /* MarXDesignView.swift */,
 				81CF16DD20F8421D00D6831D /* MarXToolsFastClickButton.swift */,
 			);
 			path = Inherit;
@@ -458,11 +473,16 @@
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				81AF75FE20F6E5B0003AB709 /* MarXToolsSwift+UIView.swift in Sources */,
 				81CF16DE20F8421D00D6831D /* MarXToolsFastClickButton.swift in Sources */,
+				817739072121652E003C1C90 /* MarXDesignTextField.swift in Sources */,
+				81641A5221476AA300BB703E /* MarXToolsSwift+Double.swift in Sources */,
+				817739092121652E003C1C90 /* MarXDesignLabel.swift in Sources */,
 				81B0D79921097E2F002E61F3 /* MarXToolsSwift+UIImage.swift in Sources */,
 				81AF75FC20F6E5B0003AB709 /* MarXToolsSwift+UIColor.swift in Sources */,
+				817739062121652E003C1C90 /* MarXDesignButton.swift in Sources */,
 				81AF760220F6E66B003AB709 /* MarXToolsPlist.swift in Sources */,
 				81AF75FD20F6E5B0003AB709 /* MarXToolsSwfit+String.swift in Sources */,
 				81CF16E620F87BBB00D6831D /* MarXToolsToast.swift in Sources */,
+				817739082121652E003C1C90 /* MarXDesignView.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				81AF760420F6E700003AB709 /* MarXToolsUserDefault.swift in Sources */,
 			);
