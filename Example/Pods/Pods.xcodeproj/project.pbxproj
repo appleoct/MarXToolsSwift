@@ -7,217 +7,223 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		151C0F3E216BF5F37AB6699842BA6B4F /* Toast-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FABE25FB0CC3CFA717F2563598663CF /* Toast-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A0839F78FFC9F5F9F17646EB34C9173 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD63DBD0D0D8DF73C1144E73AF6FC00 /* ToastView.swift */; };
-		3237CE13CCB1E0EEF51605199168EC74 /* MarXToolsToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D885FA6323387037FBE23F7FB1AEC2 /* MarXToolsToast.swift */; };
-		3371C49A1A1BD81055A7DEDDCBFF71E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F833DB77D5780F814E624D1F3A3EAF80 /* Foundation.framework */; };
-		3482679286C39F8B43D14C06596AA708 /* Toast_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2100CCC2390BA8EEEBB5E1738D770F4F /* Toast_Swift.framework */; };
-		34F33198B5C71F2D449F8DB55A46ACBE /* MarXToolsFastClickButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8578FFB543AA951AE26B8D64F5119778 /* MarXToolsFastClickButton.swift */; };
-		3A456848AA6C15DB422CB1B18F1F6B57 /* MarXToolsPlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC529A4D138B34D9A748E4D78ECA0D4C /* MarXToolsPlist.swift */; };
-		3D4D113E312B49225E41309469CDBC8A /* Toaster-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28454DE00621A4BD181EAFE2B84FE979 /* Toaster-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52E99537FF4262A2F09EAF38B7A07732 /* ToastWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB80F2DB2A790215FEFAEE04076391E /* ToastWindow.swift */; };
-		603505646339CE02A9D3E37D0C071F23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B328C818F7174443AF6A0C39F87D6E02 /* UIKit.framework */; };
-		7BF781CFA61FA949893EECE3C061363C /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC251E05D400FC759C57630BFC7931D3 /* Toast.swift */; };
-		81641A5421476AE900BB703E /* MarXToolsSwift+Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81641A5321476AE900BB703E /* MarXToolsSwift+Double.swift */; };
-		8177390E21216628003C1C90 /* MarXDesignTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8177390A21216628003C1C90 /* MarXDesignTextField.swift */; };
-		8177390F21216628003C1C90 /* MarXDesignButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8177390B21216628003C1C90 /* MarXDesignButton.swift */; };
-		8177391021216628003C1C90 /* MarXDesignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8177390C21216628003C1C90 /* MarXDesignView.swift */; };
-		8177391121216628003C1C90 /* MarXDesignLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8177390D21216628003C1C90 /* MarXDesignLabel.swift */; };
-		81B0D79B21097F35002E61F3 /* MarXToolsSwift+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B0D79A21097F35002E61F3 /* MarXToolsSwift+UIImage.swift */; };
-		8210EB2558967D307C7E9E361479CA74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F833DB77D5780F814E624D1F3A3EAF80 /* Foundation.framework */; };
-		897DAADFA85C52ACB618974C9768C0A7 /* Toast-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F4F7462C53DAAE6A1218CCFFA24AD7 /* Toast-Swift-dummy.m */; };
-		89AFE759B416603802B405EFCCCDEA70 /* MarXToolsSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE56496BC1B03E20203C90F3E8D5DA39 /* MarXToolsSwift-dummy.m */; };
-		9284F82E106466A85EC5934DCB5EA0D3 /* Toaster-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F239F44A3812832EBB6E4FAA39A8196 /* Toaster-dummy.m */; };
-		95015E99B8D987072DD347C7CBFBA6B5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7C084A66040BB0B7160C98BD6CF0A98 /* AVFoundation.framework */; };
-		951855906FDB5EFA283B27F729EF765F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 705D08A98C9CF84FDA2D49603B157984 /* QuartzCore.framework */; };
-		9B9B5B81D74FAC31F247D37FA0316EE0 /* MarXToolsSwift+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6298B1D95DCC37FAA4F3F46B62CE4ECF /* MarXToolsSwift+UIView.swift */; };
-		A13A86EC29083695E6229C8652C74404 /* Pods-MarXToolsSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9630794D69F3E58671F60B2CC62B6B0 /* Pods-MarXToolsSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A380442A546592D61BCF4BC0AF74D439 /* Pods-MarXToolsSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76EE4D8B61CCD335C02F2EA976ACD652 /* Pods-MarXToolsSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ADA45F55368854C00BCC1F41834684D9 /* Pods-MarXToolsSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E917646E83EE2C75AEC474BAA8F1E9 /* Pods-MarXToolsSwift_Tests-dummy.m */; };
-		B3172ED368BB72317F5AC75D49871C88 /* Pods-MarXToolsSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFF6CEAC8F1FAB4FF44EF1C1B90026C /* Pods-MarXToolsSwift_Example-dummy.m */; };
-		B355052C126F5E4ACB5366739468327D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F833DB77D5780F814E624D1F3A3EAF80 /* Foundation.framework */; };
-		C89DEAA10A4475B4043E1E5C8E48E67A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 705D08A98C9CF84FDA2D49603B157984 /* QuartzCore.framework */; };
-		CD572D0497DE9891D461E26E64EAA829 /* ToastCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAC369B96C5D035FB877BA6A3CFCE3D /* ToastCenter.swift */; };
-		CD7B7A405711705F625F6DABAD96A357 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F833DB77D5780F814E624D1F3A3EAF80 /* Foundation.framework */; };
-		D420BC6C11426E6B41CC447D2DA96D5B /* MarXToolsSwift+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69881CA8DB94296815FCED4572A0B73B /* MarXToolsSwift+UIColor.swift */; };
-		D57DE7D992B5C1B5EE2F694E01757833 /* MarXToolsSwfit+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8787CDEC47D925D5F3EB2C4A01D2FD /* MarXToolsSwfit+String.swift */; };
-		D6DDA3D53046F4B8A75BD668BA0DB5C9 /* Toaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5477E7AC083B68E613CFD4874875C57 /* Toaster.framework */; };
-		DB095B30F503F51C480380A292312D9D /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC38D74F457131277B1B90ECAB9E26C /* Toast.swift */; };
-		E2FC7F99353A086488F1B38797022FB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B328C818F7174443AF6A0C39F87D6E02 /* UIKit.framework */; };
-		E5B420F667AC4C53541FA24E74D30430 /* MarXToolsUserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEAD6A159935327856C4F9A6E57BE75 /* MarXToolsUserDefault.swift */; };
-		F052C7F2763FF77A8F95BD7A91E680DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F833DB77D5780F814E624D1F3A3EAF80 /* Foundation.framework */; };
-		F134BA5FA00CBC18340240E69A536000 /* Toaster.h in Headers */ = {isa = PBXBuildFile; fileRef = AC67270F6538728FD156968CCE82FADC /* Toaster.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE9A6F8111C962CABEC27C4313E9F7CA /* MarXToolsSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C65EA7BE1E08245AE11B0CDB669C99D2 /* MarXToolsSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0420F8E4751C58DCFB087314A6B31C4B /* Toast_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 097980647F6313D436A06A4C1E82BEAA /* Toast_Swift.framework */; };
+		07359C370D58EE00578562314FDAB66C /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6068E46F837C6016823EBEE5392A58 /* Toast.swift */; };
+		07ADDDC3EBD7E82FBF83E2D946DFD1AA /* Toast-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFBBB7746C37A7326E6FA83FFE7C4E6 /* Toast-Swift-dummy.m */; };
+		1D563FD7AADFDBAFFCBB4D84C146CBD3 /* Toast-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1A0C7E85608C4ABE3210E1C6707C889 /* Toast-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		230306059D2A694321792DBB259DE9F5 /* MarXToolsUserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79506C54F0878BA8A997907ECCDCCB39 /* MarXToolsUserDefault.swift */; };
+		2ACF424A2709DA7E69A5D76C62D605D7 /* MarXToolsPlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = F873B15464E779865352F08A94FF1757 /* MarXToolsPlist.swift */; };
+		34AD532B97321E28F67EDFA7E234880F /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C74EEC7AA4CD55C0451B222F683A7 /* Toast.swift */; };
+		3846A7230C06BFB3849085A4CD59C22A /* MarXToolsSwift+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B55B510AE91CDEFEEA907AEB8790B0C /* MarXToolsSwift+UIImage.swift */; };
+		398CBC8949B2D8BF56BD5D55A6EC125C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B6951A839C1433009B293B8F73D8D0B /* QuartzCore.framework */; };
+		427EE454AC8B675190896B6CFD925599 /* MarXToolsSwift+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ED39CE70182FDADCD4D68051927E40 /* MarXToolsSwift+UIView.swift */; };
+		474ACF75471F1247E1EE6B669CD958DF /* MarXToolsSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD4B035AF75D8EF92F174F879E4B4505 /* MarXToolsSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DBFDF5FACACE57FF919DD1090181BCD /* ToastWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5786C2E53DE00642BF0D3A65DD14D007 /* ToastWindow.swift */; };
+		581F1CEEBFB403B4E374B129CA704A8D /* MarXDesignButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B66AAA1D3B6C2B148FC147D5562BE8 /* MarXDesignButton.swift */; };
+		5E813BFAC90C5CC30075C03AA8C459B0 /* Pods-MarXToolsSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E917646E83EE2C75AEC474BAA8F1E9 /* Pods-MarXToolsSwift_Tests-dummy.m */; };
+		669E63ECF671E5DC5AF6318E7542E2AC /* Pods-MarXToolsSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFF6CEAC8F1FAB4FF44EF1C1B90026C /* Pods-MarXToolsSwift_Example-dummy.m */; };
+		76A49BAF88470F3DA248E5B8178BEC92 /* Pods-MarXToolsSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9630794D69F3E58671F60B2CC62B6B0 /* Pods-MarXToolsSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		792DB567A5E69C8FB69D26AA495CD22F /* MarXToolsFastClickButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134EBD7BF7B55A6B78AF2DBFAC636FEA /* MarXToolsFastClickButton.swift */; };
+		7B869FFACF2F71DAF9FD08E44277FEE8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046124A124FA4BF4D8A812F8C603D478 /* AVFoundation.framework */; };
+		7DAC78A6F67AB3AB91A0CA646D67D784 /* MarXToolsSwift+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8D32C82227B61372CA57F2B6FBFADE /* MarXToolsSwift+UIColor.swift */; };
+		82DC9B8C3262D379C2AE60B365246B75 /* MarXDesignLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB52D3BAE3272F9FB0792B55463B071E /* MarXDesignLabel.swift */; };
+		B451DEE8ED333A861C5DDFCB16C63D49 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE622D122A81E5DA4E5992C93E985277 /* ToastView.swift */; };
+		B92F3898D8D829053C133B5FE34E1DBF /* MarXToolsSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CE9B99F027721DEE4FA9A59A020024 /* MarXToolsSwift-dummy.m */; };
+		B9DCE2F786635FCF326438C1F55FE330 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D3F77C2F610B30166439BCB2329C38 /* UIKit.framework */; };
+		BC8472EC2824257C16961B2C0ED5E76A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A7F205BE7C7901A3D4008C0CD87F09 /* Foundation.framework */; };
+		C2DD38F24B83A4FF5A67C27B4A4AD669 /* MarXDesignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE7E6CE2970D6277F997801D951E519 /* MarXDesignView.swift */; };
+		C3D9BB585B4023BEB7603970BBF4019F /* MarXToolsSwfit+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629FEBFFF972AC44C5369830AB4888FB /* MarXToolsSwfit+String.swift */; };
+		C7E6D543537315F6DD711F78C04A75F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A7F205BE7C7901A3D4008C0CD87F09 /* Foundation.framework */; };
+		CD128BFD38036616C010F10BA1506420 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A7F205BE7C7901A3D4008C0CD87F09 /* Foundation.framework */; };
+		D2148974B1A45D445A493B54401F342A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A7F205BE7C7901A3D4008C0CD87F09 /* Foundation.framework */; };
+		D6E51E90EF79E37B3C281B5B7901F74A /* Pods-MarXToolsSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76EE4D8B61CCD335C02F2EA976ACD652 /* Pods-MarXToolsSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFA7EF91C67F300ED9F4D3E2D5AFE64A /* MarXToolsSwift+Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = C094CDC963B503BC4BBCA4008B8008CD /* MarXToolsSwift+Double.swift */; };
+		F81D2651B28A5762841D78664F24D594 /* MarXDesignTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D7246F6255D3B4173AD5B5760AC562 /* MarXDesignTextField.swift */; };
+		F860E44B253E370D3F9215F156C78AD0 /* Toaster.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D39AB14CD129E05E34B9BAF69D34DE /* Toaster.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD6160DB6F3F322AB7DF4A5A41C317D5 /* MarXToolsToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362C21F556887AF196EE179B855A752E /* MarXToolsToast.swift */; };
+		FFFD501465E8F2A325FB1C49C0060EBA /* ToastCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8C0BB7A30666F8EBD2F2212E812690 /* ToastCenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		70B13EA49B34789D07776A4CC0DAC01A /* PBXContainerItemProxy */ = {
+		0BD59083CE26F184DECE6088D565B94C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9535624BE78F6E5D7A1A7DD48E4E5F78;
+			remoteGlobalIDString = 8450D6E7783F4E159E21605A57913178;
 			remoteInfo = MarXToolsSwift;
 		};
-		785CDC45FFD2DBB011AA35AB4B8AF1BE /* PBXContainerItemProxy */ = {
+		79D0BD7FFE1B42E4F0C7DBAA0DC95DE7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CEF62CBD388DCA6AE443C186F4DD0489;
+			remoteGlobalIDString = 4EC047B73EFCC7C72F3FAA88AFDB5501;
 			remoteInfo = "Toast-Swift";
 		};
-		7BB55CA09FF7E4813CA9EC827BA8C695 /* PBXContainerItemProxy */ = {
+		A23F2A72681213C720D625D785CF7CD0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A208A4F16D9A11F545C9BD3CD7B10854;
-			remoteInfo = Toaster;
+			remoteGlobalIDString = 384F9AC8A774A2E1D83DFF90311C44F8;
+			remoteInfo = "Pods-MarXToolsSwift_Example";
 		};
-		7CFCC352DD1DFA7CAF6CCAB24D166ABE /* PBXContainerItemProxy */ = {
+		B63BEEDF5D23AA85231396069FD6E09D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A208A4F16D9A11F545C9BD3CD7B10854;
-			remoteInfo = Toaster;
-		};
-		CD2B38A351E7D217004856DB034721F2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CEF62CBD388DCA6AE443C186F4DD0489;
+			remoteGlobalIDString = 4EC047B73EFCC7C72F3FAA88AFDB5501;
 			remoteInfo = "Toast-Swift";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0AADBDEF52C93C6E4D51EC212C15A0DC /* MarXToolsSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarXToolsSwift-prefix.pch"; sourceTree = "<group>"; };
-		0DC06D97456291E8DE12663411A80510 /* Toast-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-prefix.pch"; sourceTree = "<group>"; };
-		11C27437C962787A7AAC60022FBEB07B /* Toaster.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Toaster.modulemap; sourceTree = "<group>"; };
+		046124A124FA4BF4D8A812F8C603D478 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		097980647F6313D436A06A4C1E82BEAA /* Toast_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Toast_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10D7246F6255D3B4173AD5B5760AC562 /* MarXDesignTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarXDesignTextField.swift; path = MarXToolsSwift/Classes/Inherit/MarXDesignTextField.swift; sourceTree = "<group>"; };
+		134EBD7BF7B55A6B78AF2DBFAC636FEA /* MarXToolsFastClickButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarXToolsFastClickButton.swift; path = MarXToolsSwift/Classes/Inherit/MarXToolsFastClickButton.swift; sourceTree = "<group>"; };
 		14356BBEBFA46E048B281E330C274E58 /* Pods-MarXToolsSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarXToolsSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1DD63DBD0D0D8DF73C1144E73AF6FC00 /* ToastView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToastView.swift; path = Sources/ToastView.swift; sourceTree = "<group>"; };
-		2100CCC2390BA8EEEBB5E1738D770F4F /* Toast_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Toast_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		28454DE00621A4BD181EAFE2B84FE979 /* Toaster-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toaster-umbrella.h"; sourceTree = "<group>"; };
+		1F115BD343D4A24EEF27ABA35C2633F9 /* Toast-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-prefix.pch"; sourceTree = "<group>"; };
+		2CE7E6CE2970D6277F997801D951E519 /* MarXDesignView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarXDesignView.swift; path = MarXToolsSwift/Classes/Inherit/MarXDesignView.swift; sourceTree = "<group>"; };
+		34AD620C88FAC81583F9E5FC923E52DB /* Toast_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Toast_Swift.framework; path = "Toast-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		362C21F556887AF196EE179B855A752E /* MarXToolsToast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarXToolsToast.swift; sourceTree = "<group>"; };
+		3B6951A839C1433009B293B8F73D8D0B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		3C1B5D4BDD3A6A3CFAF7050C3496ADBB /* Pods-MarXToolsSwift_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarXToolsSwift_Tests-resources.sh"; sourceTree = "<group>"; };
-		3D0578C124983E5318EFCB1EE296A66A /* Toaster-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toaster-prefix.pch"; sourceTree = "<group>"; };
+		41ED39CE70182FDADCD4D68051927E40 /* MarXToolsSwift+UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MarXToolsSwift+UIView.swift"; path = "MarXToolsSwift/Classes/Extensions/MarXToolsSwift+UIView.swift"; sourceTree = "<group>"; };
+		47221C762806F991E081C474CF749137 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47BDD53AA0F341B6EF68FF8C2152635E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F239F44A3812832EBB6E4FAA39A8196 /* Toaster-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toaster-dummy.m"; sourceTree = "<group>"; };
 		512DDF7AFBA207F8638B6549491DBF66 /* Pods-MarXToolsSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MarXToolsSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		51627102436D0873C950ECC573F8A8BB /* Pods_MarXToolsSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarXToolsSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		54D885FA6323387037FBE23F7FB1AEC2 /* MarXToolsToast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarXToolsToast.swift; path = MarXToolsSwift/Classes/ThirdParty/Toast/MarXToolsToast.swift; sourceTree = "<group>"; };
+		52D3F77C2F610B30166439BCB2329C38 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		545927077C93A59E9CA910D759F88916 /* MarXToolsSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MarXToolsSwift.modulemap; sourceTree = "<group>"; };
 		56E917646E83EE2C75AEC474BAA8F1E9 /* Pods-MarXToolsSwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MarXToolsSwift_Tests-dummy.m"; sourceTree = "<group>"; };
+		5786C2E53DE00642BF0D3A65DD14D007 /* ToastWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ToastWindow.swift; sourceTree = "<group>"; };
 		5A9E984226BEBB64F89D89DDA921766B /* Pods-MarXToolsSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarXToolsSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5B023E53EE81ABF373FDD56D9FE9FA43 /* Toast_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Toast_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D8BBAAAD3786F59466BFD4E0C5AD66C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6298B1D95DCC37FAA4F3F46B62CE4ECF /* MarXToolsSwift+UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MarXToolsSwift+UIView.swift"; path = "MarXToolsSwift/Classes/Extensions/MarXToolsSwift+UIView.swift"; sourceTree = "<group>"; };
+		629FEBFFF972AC44C5369830AB4888FB /* MarXToolsSwfit+String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MarXToolsSwfit+String.swift"; path = "MarXToolsSwift/Classes/Extensions/MarXToolsSwfit+String.swift"; sourceTree = "<group>"; };
+		680AE845789700A1E4491B99E06051D7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6868CD75DCB5437F6875EEB388C7F841 /* Pods-MarXToolsSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MarXToolsSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		69881CA8DB94296815FCED4572A0B73B /* MarXToolsSwift+UIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MarXToolsSwift+UIColor.swift"; path = "MarXToolsSwift/Classes/Extensions/MarXToolsSwift+UIColor.swift"; sourceTree = "<group>"; };
-		705D08A98C9CF84FDA2D49603B157984 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		6B55B510AE91CDEFEEA907AEB8790B0C /* MarXToolsSwift+UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MarXToolsSwift+UIImage.swift"; path = "MarXToolsSwift/Classes/Extensions/MarXToolsSwift+UIImage.swift"; sourceTree = "<group>"; };
 		72903D154A18F6844E33DD5E5639641D /* Pods-MarXToolsSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarXToolsSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		72F2A4AC0E05BD1D5B3ED830407303B8 /* Toaster.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Toaster.xcconfig; sourceTree = "<group>"; };
 		76EE4D8B61CCD335C02F2EA976ACD652 /* Pods-MarXToolsSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MarXToolsSwift_Example-umbrella.h"; sourceTree = "<group>"; };
-		7B8787CDEC47D925D5F3EB2C4A01D2FD /* MarXToolsSwfit+String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MarXToolsSwfit+String.swift"; path = "MarXToolsSwift/Classes/Extensions/MarXToolsSwfit+String.swift"; sourceTree = "<group>"; };
+		79506C54F0878BA8A997907ECCDCCB39 /* MarXToolsUserDefault.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarXToolsUserDefault.swift; path = MarXToolsSwift/Classes/Handler/MarXToolsUserDefault.swift; sourceTree = "<group>"; };
+		7B923761305CBE70B9E652D6140E47E7 /* Pods_MarXToolsSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MarXToolsSwift_Tests.framework; path = "Pods-MarXToolsSwift_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C83C78A81743E3948A4155F22846252 /* Pods-MarXToolsSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarXToolsSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7CB80F2DB2A790215FEFAEE04076391E /* ToastWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToastWindow.swift; path = Sources/ToastWindow.swift; sourceTree = "<group>"; };
-		7FABE25FB0CC3CFA717F2563598663CF /* Toast-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-umbrella.h"; sourceTree = "<group>"; };
-		81641A5321476AE900BB703E /* MarXToolsSwift+Double.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "MarXToolsSwift+Double.swift"; path = "MarXToolsSwift/Classes/Extensions/MarXToolsSwift+Double.swift"; sourceTree = "<group>"; };
-		8177390A21216628003C1C90 /* MarXDesignTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MarXDesignTextField.swift; path = MarXToolsSwift/Classes/Inherit/MarXDesignTextField.swift; sourceTree = "<group>"; };
-		8177390B21216628003C1C90 /* MarXDesignButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MarXDesignButton.swift; path = MarXToolsSwift/Classes/Inherit/MarXDesignButton.swift; sourceTree = "<group>"; };
-		8177390C21216628003C1C90 /* MarXDesignView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MarXDesignView.swift; path = MarXToolsSwift/Classes/Inherit/MarXDesignView.swift; sourceTree = "<group>"; };
-		8177390D21216628003C1C90 /* MarXDesignLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MarXDesignLabel.swift; path = MarXToolsSwift/Classes/Inherit/MarXDesignLabel.swift; sourceTree = "<group>"; };
-		81B0D79A21097F35002E61F3 /* MarXToolsSwift+UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "MarXToolsSwift+UIImage.swift"; path = "MarXToolsSwift/Classes/Extensions/MarXToolsSwift+UIImage.swift"; sourceTree = "<group>"; };
-		83194AE06897E0515950D6B85B280EA9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8578FFB543AA951AE26B8D64F5119778 /* MarXToolsFastClickButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarXToolsFastClickButton.swift; path = MarXToolsSwift/Classes/Inherit/MarXToolsFastClickButton.swift; sourceTree = "<group>"; };
 		857CA53CCEFB8A37A091D96426A03704 /* Pods-MarXToolsSwift_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarXToolsSwift_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		86F4F7462C53DAAE6A1218CCFFA24AD7 /* Toast-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-Swift-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8B8C0BB7A30666F8EBD2F2212E812690 /* ToastCenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ToastCenter.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9449848FA5C1C9F77D1CDD3605C916FC /* Pods-MarXToolsSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarXToolsSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		96DA0CFEB62B04C682930F7E5CC66E6B /* MarXToolsSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarXToolsSwift.xcconfig; sourceTree = "<group>"; };
-		9DAC369B96C5D035FB877BA6A3CFCE3D /* ToastCenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToastCenter.swift; path = Sources/ToastCenter.swift; sourceTree = "<group>"; };
+		96A7F205BE7C7901A3D4008C0CD87F09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		985D49C9C2C0E42BDB69B977CAF7C640 /* Pods_MarXToolsSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MarXToolsSwift_Example.framework; path = "Pods-MarXToolsSwift_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DAD2F9C8042F1D4E380EEBBC7A967F2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F6068E46F837C6016823EBEE5392A58 /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = Toast/Toast.swift; sourceTree = "<group>"; };
 		9FFF6CEAC8F1FAB4FF44EF1C1B90026C /* Pods-MarXToolsSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MarXToolsSwift_Example-dummy.m"; sourceTree = "<group>"; };
-		A3397AF099653E92EC354164CC69F412 /* MarXToolsSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MarXToolsSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A358EE1B74FB37ED3F56EF591CBCFF54 /* Pods-MarXToolsSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarXToolsSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A7C084A66040BB0B7160C98BD6CF0A98 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		AC67270F6538728FD156968CCE82FADC /* Toaster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Toaster.h; path = Sources/Toaster.h; sourceTree = "<group>"; };
+		AA69F5C69A036EFF3AE02C60ACE9FCB9 /* MarXToolsSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarXToolsSwift.xcconfig; sourceTree = "<group>"; };
+		AB8D32C82227B61372CA57F2B6FBFADE /* MarXToolsSwift+UIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MarXToolsSwift+UIColor.swift"; path = "MarXToolsSwift/Classes/Extensions/MarXToolsSwift+UIColor.swift"; sourceTree = "<group>"; };
+		AD4B035AF75D8EF92F174F879E4B4505 /* MarXToolsSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarXToolsSwift-umbrella.h"; sourceTree = "<group>"; };
 		AE136A1BD15F04E2784BF573E9499A18 /* Pods-MarXToolsSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarXToolsSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
-		AE56496BC1B03E20203C90F3E8D5DA39 /* MarXToolsSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MarXToolsSwift-dummy.m"; sourceTree = "<group>"; };
-		B328C818F7174443AF6A0C39F87D6E02 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		C65EA7BE1E08245AE11B0CDB669C99D2 /* MarXToolsSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarXToolsSwift-umbrella.h"; sourceTree = "<group>"; };
-		D7226225FE6A354FEF92EE2EFAA92AE1 /* Toast-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Toast-Swift.modulemap"; sourceTree = "<group>"; };
+		B07FC0358020C9BF5D3DB9385897D6B3 /* Toast-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Toast-Swift.xcconfig"; sourceTree = "<group>"; };
+		B4CE9B99F027721DEE4FA9A59A020024 /* MarXToolsSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MarXToolsSwift-dummy.m"; sourceTree = "<group>"; };
+		B4FFDB804705A024529A430CA9D2FFE2 /* Toast-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Toast-Swift.modulemap"; sourceTree = "<group>"; };
+		B57B0B2771F47EC87B8C6E61923A8F95 /* MarXToolsSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MarXToolsSwift.framework; path = MarXToolsSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C094CDC963B503BC4BBCA4008B8008CD /* MarXToolsSwift+Double.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MarXToolsSwift+Double.swift"; path = "MarXToolsSwift/Classes/Extensions/MarXToolsSwift+Double.swift"; sourceTree = "<group>"; };
+		C9D39AB14CD129E05E34B9BAF69D34DE /* Toaster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Toaster.h; sourceTree = "<group>"; };
+		CB52D3BAE3272F9FB0792B55463B071E /* MarXDesignLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarXDesignLabel.swift; path = MarXToolsSwift/Classes/Inherit/MarXDesignLabel.swift; sourceTree = "<group>"; };
+		CD683D0ABAF69E8D86785DE9ACB630F5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		D9630794D69F3E58671F60B2CC62B6B0 /* Pods-MarXToolsSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MarXToolsSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
-		DC529A4D138B34D9A748E4D78ECA0D4C /* MarXToolsPlist.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarXToolsPlist.swift; path = MarXToolsSwift/Classes/Handler/MarXToolsPlist.swift; sourceTree = "<group>"; };
-		DE3A5362ABBAB32DB628E698BD5EFAAB /* Toast-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Toast-Swift.xcconfig"; sourceTree = "<group>"; };
-		E429469DC1D8199AF4928AE3966F31E1 /* Toaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Toaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E80F2273B742A055EA71935DDDADDEA0 /* Pods_MarXToolsSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarXToolsSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E840D318F478EB67787D8BCC6D4A5443 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB02352EF7D1F0B5EBAA59245C70F8F3 /* MarXToolsSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MarXToolsSwift.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DE622D122A81E5DA4E5992C93E985277 /* ToastView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		E64D0B816F0652360E655E3356B2FFC8 /* MarXToolsSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarXToolsSwift-prefix.pch"; sourceTree = "<group>"; };
+		E6B66AAA1D3B6C2B148FC147D5562BE8 /* MarXDesignButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarXDesignButton.swift; path = MarXToolsSwift/Classes/Inherit/MarXDesignButton.swift; sourceTree = "<group>"; };
 		E8D197E805CFCCFD8458DCDB51841DC5 /* Pods-MarXToolsSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MarXToolsSwift_Example.modulemap"; sourceTree = "<group>"; };
-		EC251E05D400FC759C57630BFC7931D3 /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = Toast/Toast.swift; sourceTree = "<group>"; };
-		ECEAD6A159935327856C4F9A6E57BE75 /* MarXToolsUserDefault.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarXToolsUserDefault.swift; path = MarXToolsSwift/Classes/Handler/MarXToolsUserDefault.swift; sourceTree = "<group>"; };
-		EE2604B540A2BED5FA22E6BCFA0DAD09 /* MarXToolsSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MarXToolsSwift.modulemap; sourceTree = "<group>"; };
-		F5477E7AC083B68E613CFD4874875C57 /* Toaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Toaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F833DB77D5780F814E624D1F3A3EAF80 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E93C74EEC7AA4CD55C0451B222F683A7 /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		EADE5CFD2C87676C9EA7D72FC527956F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		ECFBBB7746C37A7326E6FA83FFE7C4E6 /* Toast-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-Swift-dummy.m"; sourceTree = "<group>"; };
+		F1A0C7E85608C4ABE3210E1C6707C889 /* Toast-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-umbrella.h"; sourceTree = "<group>"; };
+		F873B15464E779865352F08A94FF1757 /* MarXToolsPlist.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarXToolsPlist.swift; path = MarXToolsSwift/Classes/Handler/MarXToolsPlist.swift; sourceTree = "<group>"; };
 		F99B39D779176F26FE0D81700552F720 /* Pods-MarXToolsSwift_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarXToolsSwift_Example-resources.sh"; sourceTree = "<group>"; };
-		FCC38D74F457131277B1B90ECAB9E26C /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = Sources/Toast.swift; sourceTree = "<group>"; };
 		FF80F9012409AFCC0ADCAD35560560CA /* Pods-MarXToolsSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MarXToolsSwift_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		699DC22225A65B7A61521D43A881C862 /* Frameworks */ = {
+		340B02DF31D67AE0499D8C26450995C5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD7B7A405711705F625F6DABAD96A357 /* Foundation.framework in Frameworks */,
-				C89DEAA10A4475B4043E1E5C8E48E67A /* QuartzCore.framework in Frameworks */,
+				BC8472EC2824257C16961B2C0ED5E76A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A6C77F0643950C220DA13692BB3F241 /* Frameworks */ = {
+		3B99E3BB6E450DA62CA0FB6A102A2864 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F052C7F2763FF77A8F95BD7A91E680DD /* Foundation.framework in Frameworks */,
+				7B869FFACF2F71DAF9FD08E44277FEE8 /* AVFoundation.framework in Frameworks */,
+				D2148974B1A45D445A493B54401F342A /* Foundation.framework in Frameworks */,
+				0420F8E4751C58DCFB087314A6B31C4B /* Toast_Swift.framework in Frameworks */,
+				B9DCE2F786635FCF326438C1F55FE330 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		99FBC84AE11C384289A56FAB41C183FF /* Frameworks */ = {
+		B12246F5F705EF4FCC80F5D9760ECD3D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B355052C126F5E4ACB5366739468327D /* Foundation.framework in Frameworks */,
+				C7E6D543537315F6DD711F78C04A75F4 /* Foundation.framework in Frameworks */,
+				398CBC8949B2D8BF56BD5D55A6EC125C /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9D2380C6E2906B0F4D40DF30CD34B2A /* Frameworks */ = {
+		EB3BF93EB4BF5FF0ADAA925F0E3C1C25 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95015E99B8D987072DD347C7CBFBA6B5 /* AVFoundation.framework in Frameworks */,
-				8210EB2558967D307C7E9E361479CA74 /* Foundation.framework in Frameworks */,
-				3482679286C39F8B43D14C06596AA708 /* Toast_Swift.framework in Frameworks */,
-				D6DDA3D53046F4B8A75BD668BA0DB5C9 /* Toaster.framework in Frameworks */,
-				E2FC7F99353A086488F1B38797022FB2 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E76D9AF86C57667624BC66D207894835 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3371C49A1A1BD81055A7DEDDCBFF71E0 /* Foundation.framework in Frameworks */,
-				951855906FDB5EFA283B27F729EF765F /* QuartzCore.framework in Frameworks */,
-				603505646339CE02A9D3E37D0C071F23 /* UIKit.framework in Frameworks */,
+				CD128BFD38036616C010F10BA1506420 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		031F520397315B0F902CA92E24B3AE13 /* Pods */ = {
+		06990190BA5D5F1C5CCB1C03A26790E5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AAB60DB6A486A7DA32135F36D62C1FAB /* Toast-Swift */,
-				F01776A23DB0E57C1A441EEAA35F2890 /* Toaster */,
+				680AE845789700A1E4491B99E06051D7 /* Info.plist */,
+				B4FFDB804705A024529A430CA9D2FFE2 /* Toast-Swift.modulemap */,
+				B07FC0358020C9BF5D3DB9385897D6B3 /* Toast-Swift.xcconfig */,
+				ECFBBB7746C37A7326E6FA83FFE7C4E6 /* Toast-Swift-dummy.m */,
+				1F115BD343D4A24EEF27ABA35C2633F9 /* Toast-Swift-prefix.pch */,
+				F1A0C7E85608C4ABE3210E1C6707C889 /* Toast-Swift-umbrella.h */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/Toast-Swift";
+			sourceTree = "<group>";
+		};
+		0B8ED19C6C8996EAE842399CCB220B5E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				566A08952F3B114A68B9F0459553A9C3 /* MarXToolsSwift */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		10E2FDE1CDAF4693C143DEEA04E58278 /* Inherit */ = {
+			isa = PBXGroup;
+			children = (
+				E6B66AAA1D3B6C2B148FC147D5562BE8 /* MarXDesignButton.swift */,
+				CB52D3BAE3272F9FB0792B55463B071E /* MarXDesignLabel.swift */,
+				10D7246F6255D3B4173AD5B5760AC562 /* MarXDesignTextField.swift */,
+				2CE7E6CE2970D6277F997801D951E519 /* MarXDesignView.swift */,
+				134EBD7BF7B55A6B78AF2DBFAC636FEA /* MarXToolsFastClickButton.swift */,
+			);
+			name = Inherit;
+			sourceTree = "<group>";
+		};
+		1CC7CB9B2C9AE97AB1B25B9DC56A545D /* Toast-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				9F6068E46F837C6016823EBEE5392A58 /* Toast.swift */,
+				06990190BA5D5F1C5CCB1C03A26790E5 /* Support Files */,
+			);
+			name = "Toast-Swift";
+			path = "Toast-Swift";
 			sourceTree = "<group>";
 		};
 		1D442D668F468215C225F44146B26BDE /* Pods-MarXToolsSwift_Tests */ = {
@@ -238,26 +244,57 @@
 			path = "Target Support Files/Pods-MarXToolsSwift_Tests";
 			sourceTree = "<group>";
 		};
-		2621739B94076A3F074D079E33DD0B6C /* ThirdParty */ = {
+		242A9A877B02F739869865774EB28975 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				54D885FA6323387037FBE23F7FB1AEC2 /* MarXToolsToast.swift */,
+				629FEBFFF972AC44C5369830AB4888FB /* MarXToolsSwfit+String.swift */,
+				C094CDC963B503BC4BBCA4008B8008CD /* MarXToolsSwift+Double.swift */,
+				AB8D32C82227B61372CA57F2B6FBFADE /* MarXToolsSwift+UIColor.swift */,
+				6B55B510AE91CDEFEEA907AEB8790B0C /* MarXToolsSwift+UIImage.swift */,
+				41ED39CE70182FDADCD4D68051927E40 /* MarXToolsSwift+UIView.swift */,
 			);
-			name = ThirdParty;
+			name = Extensions;
 			sourceTree = "<group>";
 		};
-		26ED274BE62A96A6EC3DFEA2BE5EEBBB /* Support Files */ = {
+		30A5DA85B896892FEAF538658A607DB2 /* Toast */ = {
 			isa = PBXGroup;
 			children = (
-				5D8BBAAAD3786F59466BFD4E0C5AD66C /* Info.plist */,
-				EE2604B540A2BED5FA22E6BCFA0DAD09 /* MarXToolsSwift.modulemap */,
-				96DA0CFEB62B04C682930F7E5CC66E6B /* MarXToolsSwift.xcconfig */,
-				AE56496BC1B03E20203C90F3E8D5DA39 /* MarXToolsSwift-dummy.m */,
-				0AADBDEF52C93C6E4D51EC212C15A0DC /* MarXToolsSwift-prefix.pch */,
-				C65EA7BE1E08245AE11B0CDB669C99D2 /* MarXToolsSwift-umbrella.h */,
+				362C21F556887AF196EE179B855A752E /* MarXToolsToast.swift */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MarXToolsSwift";
+			name = Toast;
+			path = MarXToolsSwift/Classes/ThirdParty/Toast;
+			sourceTree = "<group>";
+		};
+		49D48E7F781DB8EF89F7CD736B520C27 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				F873B15464E779865352F08A94FF1757 /* MarXToolsPlist.swift */,
+				79506C54F0878BA8A997907ECCDCCB39 /* MarXToolsUserDefault.swift */,
+			);
+			name = Handler;
+			sourceTree = "<group>";
+		};
+		566A08952F3B114A68B9F0459553A9C3 /* MarXToolsSwift */ = {
+			isa = PBXGroup;
+			children = (
+				242A9A877B02F739869865774EB28975 /* Extensions */,
+				49D48E7F781DB8EF89F7CD736B520C27 /* Handler */,
+				10E2FDE1CDAF4693C143DEEA04E58278 /* Inherit */,
+				E6246679CDA01E5505021BD39BF7D74C /* Pod */,
+				9AAC50977740D6A1889AC1499E2190C2 /* Support Files */,
+				8F733275FAA1D3876F6F37278AFD9B52 /* ThirdParty */,
+			);
+			name = MarXToolsSwift;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5B64421FEA96936BDDB8AF1935A43FF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				097980647F6313D436A06A4C1E82BEAA /* Toast_Swift.framework */,
+				CEDA67E0BB92B674E859E50BD1ADB275 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		66F8B30AA27AC42A39F03801FFC5FFFC /* Pods-MarXToolsSwift_Example */ = {
@@ -278,20 +315,6 @@
 			path = "Target Support Files/Pods-MarXToolsSwift_Example";
 			sourceTree = "<group>";
 		};
-		67F538B5528E4CA8DB00AB45F263E764 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E840D318F478EB67787D8BCC6D4A5443 /* Info.plist */,
-				D7226225FE6A354FEF92EE2EFAA92AE1 /* Toast-Swift.modulemap */,
-				DE3A5362ABBAB32DB628E698BD5EFAAB /* Toast-Swift.xcconfig */,
-				86F4F7462C53DAAE6A1218CCFFA24AD7 /* Toast-Swift-dummy.m */,
-				0DC06D97456291E8DE12663411A80510 /* Toast-Swift-prefix.pch */,
-				7FABE25FB0CC3CFA717F2563598663CF /* Toast-Swift-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Toast-Swift";
-			sourceTree = "<group>";
-		};
 		70AD97556278FE57A6CF7BC7376567F8 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -301,251 +324,161 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		78527CFEE546205DD71DFA93F9C216DB /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FDBAF7CD403C52393E8BC5E2DBF93083 /* MarXToolsSwift */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		7B74FA1D30FA5755F3F691D2217C6B4E /* Handler */ = {
-			isa = PBXGroup;
-			children = (
-				DC529A4D138B34D9A748E4D78ECA0D4C /* MarXToolsPlist.swift */,
-				ECEAD6A159935327856C4F9A6E57BE75 /* MarXToolsUserDefault.swift */,
-			);
-			name = Handler;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				78527CFEE546205DD71DFA93F9C216DB /* Development Pods */,
-				DFEF32102DBC6CD7EEB82C87C58A094E /* Frameworks */,
-				031F520397315B0F902CA92E24B3AE13 /* Pods */,
-				AC6D655E452A0C8D939B60DDAB614DA8 /* Products */,
+				0B8ED19C6C8996EAE842399CCB220B5E /* Development Pods */,
+				5B64421FEA96936BDDB8AF1935A43FF7 /* Frameworks */,
+				EC8D67C4274D7B80A0E45DB6A06B96F9 /* Pods */,
+				874AE283C5700A8FE62050D484704B68 /* Products */,
 				70AD97556278FE57A6CF7BC7376567F8 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9649BCB4E4EF2A5F072D265497B88406 /* Inherit */ = {
+		874AE283C5700A8FE62050D484704B68 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8177390B21216628003C1C90 /* MarXDesignButton.swift */,
-				8177390D21216628003C1C90 /* MarXDesignLabel.swift */,
-				8177390A21216628003C1C90 /* MarXDesignTextField.swift */,
-				8177390C21216628003C1C90 /* MarXDesignView.swift */,
-				8578FFB543AA951AE26B8D64F5119778 /* MarXToolsFastClickButton.swift */,
-			);
-			name = Inherit;
-			sourceTree = "<group>";
-		};
-		A4D4C08BDD82DC337DA1B193807F64DE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				83194AE06897E0515950D6B85B280EA9 /* Info.plist */,
-				11C27437C962787A7AAC60022FBEB07B /* Toaster.modulemap */,
-				72F2A4AC0E05BD1D5B3ED830407303B8 /* Toaster.xcconfig */,
-				4F239F44A3812832EBB6E4FAA39A8196 /* Toaster-dummy.m */,
-				3D0578C124983E5318EFCB1EE296A66A /* Toaster-prefix.pch */,
-				28454DE00621A4BD181EAFE2B84FE979 /* Toaster-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Toaster";
-			sourceTree = "<group>";
-		};
-		AAB60DB6A486A7DA32135F36D62C1FAB /* Toast-Swift */ = {
-			isa = PBXGroup;
-			children = (
-				EC251E05D400FC759C57630BFC7931D3 /* Toast.swift */,
-				67F538B5528E4CA8DB00AB45F263E764 /* Support Files */,
-			);
-			path = "Toast-Swift";
-			sourceTree = "<group>";
-		};
-		AACE4BC8EC096A1C8AF0A36523BC7FAC /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				81641A5321476AE900BB703E /* MarXToolsSwift+Double.swift */,
-				81B0D79A21097F35002E61F3 /* MarXToolsSwift+UIImage.swift */,
-				7B8787CDEC47D925D5F3EB2C4A01D2FD /* MarXToolsSwfit+String.swift */,
-				69881CA8DB94296815FCED4572A0B73B /* MarXToolsSwift+UIColor.swift */,
-				6298B1D95DCC37FAA4F3F46B62CE4ECF /* MarXToolsSwift+UIView.swift */,
-			);
-			name = Extensions;
-			sourceTree = "<group>";
-		};
-		AC6D655E452A0C8D939B60DDAB614DA8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A3397AF099653E92EC354164CC69F412 /* MarXToolsSwift.framework */,
-				E80F2273B742A055EA71935DDDADDEA0 /* Pods_MarXToolsSwift_Example.framework */,
-				51627102436D0873C950ECC573F8A8BB /* Pods_MarXToolsSwift_Tests.framework */,
-				5B023E53EE81ABF373FDD56D9FE9FA43 /* Toast_Swift.framework */,
-				E429469DC1D8199AF4928AE3966F31E1 /* Toaster.framework */,
+				B57B0B2771F47EC87B8C6E61923A8F95 /* MarXToolsSwift.framework */,
+				985D49C9C2C0E42BDB69B977CAF7C640 /* Pods_MarXToolsSwift_Example.framework */,
+				7B923761305CBE70B9E652D6140E47E7 /* Pods_MarXToolsSwift_Tests.framework */,
+				34AD620C88FAC81583F9E5FC923E52DB /* Toast_Swift.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D1616F07C420B65A47BA10282810D783 /* iOS */ = {
+		8F733275FAA1D3876F6F37278AFD9B52 /* ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
-				A7C084A66040BB0B7160C98BD6CF0A98 /* AVFoundation.framework */,
-				F833DB77D5780F814E624D1F3A3EAF80 /* Foundation.framework */,
-				705D08A98C9CF84FDA2D49603B157984 /* QuartzCore.framework */,
-				B328C818F7174443AF6A0C39F87D6E02 /* UIKit.framework */,
+				30A5DA85B896892FEAF538658A607DB2 /* Toast */,
+				A92545BFB06971F85E136CA8B7D1EEC6 /* Toaster */,
+			);
+			name = ThirdParty;
+			sourceTree = "<group>";
+		};
+		9AAC50977740D6A1889AC1499E2190C2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				47221C762806F991E081C474CF749137 /* Info.plist */,
+				545927077C93A59E9CA910D759F88916 /* MarXToolsSwift.modulemap */,
+				AA69F5C69A036EFF3AE02C60ACE9FCB9 /* MarXToolsSwift.xcconfig */,
+				B4CE9B99F027721DEE4FA9A59A020024 /* MarXToolsSwift-dummy.m */,
+				E64D0B816F0652360E655E3356B2FFC8 /* MarXToolsSwift-prefix.pch */,
+				AD4B035AF75D8EF92F174F879E4B4505 /* MarXToolsSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MarXToolsSwift";
+			sourceTree = "<group>";
+		};
+		A92545BFB06971F85E136CA8B7D1EEC6 /* Toaster */ = {
+			isa = PBXGroup;
+			children = (
+				E93C74EEC7AA4CD55C0451B222F683A7 /* Toast.swift */,
+				8B8C0BB7A30666F8EBD2F2212E812690 /* ToastCenter.swift */,
+				C9D39AB14CD129E05E34B9BAF69D34DE /* Toaster.h */,
+				DE622D122A81E5DA4E5992C93E985277 /* ToastView.swift */,
+				5786C2E53DE00642BF0D3A65DD14D007 /* ToastWindow.swift */,
+			);
+			name = Toaster;
+			path = MarXToolsSwift/Classes/ThirdParty/Toaster;
+			sourceTree = "<group>";
+		};
+		CEDA67E0BB92B674E859E50BD1ADB275 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				046124A124FA4BF4D8A812F8C603D478 /* AVFoundation.framework */,
+				96A7F205BE7C7901A3D4008C0CD87F09 /* Foundation.framework */,
+				3B6951A839C1433009B293B8F73D8D0B /* QuartzCore.framework */,
+				52D3F77C2F610B30166439BCB2329C38 /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		DFEF32102DBC6CD7EEB82C87C58A094E /* Frameworks */ = {
+		E6246679CDA01E5505021BD39BF7D74C /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				2100CCC2390BA8EEEBB5E1738D770F4F /* Toast_Swift.framework */,
-				F5477E7AC083B68E613CFD4874875C57 /* Toaster.framework */,
-				D1616F07C420B65A47BA10282810D783 /* iOS */,
+				EADE5CFD2C87676C9EA7D72FC527956F /* LICENSE */,
+				DB02352EF7D1F0B5EBAA59245C70F8F3 /* MarXToolsSwift.podspec */,
+				CD683D0ABAF69E8D86785DE9ACB630F5 /* README.md */,
 			);
-			name = Frameworks;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		F01776A23DB0E57C1A441EEAA35F2890 /* Toaster */ = {
+		EC8D67C4274D7B80A0E45DB6A06B96F9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FCC38D74F457131277B1B90ECAB9E26C /* Toast.swift */,
-				9DAC369B96C5D035FB877BA6A3CFCE3D /* ToastCenter.swift */,
-				AC67270F6538728FD156968CCE82FADC /* Toaster.h */,
-				1DD63DBD0D0D8DF73C1144E73AF6FC00 /* ToastView.swift */,
-				7CB80F2DB2A790215FEFAEE04076391E /* ToastWindow.swift */,
-				A4D4C08BDD82DC337DA1B193807F64DE /* Support Files */,
+				1CC7CB9B2C9AE97AB1B25B9DC56A545D /* Toast-Swift */,
 			);
-			path = Toaster;
-			sourceTree = "<group>";
-		};
-		FDBAF7CD403C52393E8BC5E2DBF93083 /* MarXToolsSwift */ = {
-			isa = PBXGroup;
-			children = (
-				AACE4BC8EC096A1C8AF0A36523BC7FAC /* Extensions */,
-				7B74FA1D30FA5755F3F691D2217C6B4E /* Handler */,
-				9649BCB4E4EF2A5F072D265497B88406 /* Inherit */,
-				26ED274BE62A96A6EC3DFEA2BE5EEBBB /* Support Files */,
-				2621739B94076A3F074D079E33DD0B6C /* ThirdParty */,
-			);
-			name = MarXToolsSwift;
-			path = ../..;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		15BC9FE614DF9532477A5B3FB9C4D0BC /* Headers */ = {
+		2B9DCEC0666BEA895E6992AA9DDD2566 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A380442A546592D61BCF4BC0AF74D439 /* Pods-MarXToolsSwift_Example-umbrella.h in Headers */,
+				474ACF75471F1247E1EE6B669CD958DF /* MarXToolsSwift-umbrella.h in Headers */,
+				F860E44B253E370D3F9215F156C78AD0 /* Toaster.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9501C9F6705657B7BD1AC2F5E5740CFB /* Headers */ = {
+		72987090CB7C98544AA74D3EC9906FFA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D4D113E312B49225E41309469CDBC8A /* Toaster-umbrella.h in Headers */,
-				F134BA5FA00CBC18340240E69A536000 /* Toaster.h in Headers */,
+				D6E51E90EF79E37B3C281B5B7901F74A /* Pods-MarXToolsSwift_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D0322BB9EB16926ADAF6908D6982206A /* Headers */ = {
+		BAD2DC79E8ED987858F4571A61C69F3A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A13A86EC29083695E6229C8652C74404 /* Pods-MarXToolsSwift_Tests-umbrella.h in Headers */,
+				76A49BAF88470F3DA248E5B8178BEC92 /* Pods-MarXToolsSwift_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E0703DE6B3ECD3E3D9C7AD5A1C47E1C0 /* Headers */ = {
+		E11D0580DBF641CF9EDB266CD2CA44E6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE9A6F8111C962CABEC27C4313E9F7CA /* MarXToolsSwift-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FAED9692D3E85AAAD7E34B8831B5E60F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				151C0F3E216BF5F37AB6699842BA6B4F /* Toast-Swift-umbrella.h in Headers */,
+				1D563FD7AADFDBAFFCBB4D84C146CBD3 /* Toast-Swift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		26CC027BE8E68444BF68D84699AE1B0C /* Pods-MarXToolsSwift_Example */ = {
+		384F9AC8A774A2E1D83DFF90311C44F8 /* Pods-MarXToolsSwift_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3572C25F12473123B3D20A7E344498BD /* Build configuration list for PBXNativeTarget "Pods-MarXToolsSwift_Example" */;
+			buildConfigurationList = 2DE9435F56B9BC2A5EEEBBB81C3DC0C8 /* Build configuration list for PBXNativeTarget "Pods-MarXToolsSwift_Example" */;
 			buildPhases = (
-				E8C5D5F3A2386900140EFE4904BB2837 /* Sources */,
-				99FBC84AE11C384289A56FAB41C183FF /* Frameworks */,
-				15BC9FE614DF9532477A5B3FB9C4D0BC /* Headers */,
+				72987090CB7C98544AA74D3EC9906FFA /* Headers */,
+				786D9682026290AA432745718F3DC012 /* Sources */,
+				EB3BF93EB4BF5FF0ADAA925F0E3C1C25 /* Frameworks */,
+				CC5F9AADD531B617B5892B6416BC67B8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				83BDFC3BCE32586E8E709C9AA0B446FC /* PBXTargetDependency */,
-				D7CEF51EDF72284170792DA6C2BC8BE5 /* PBXTargetDependency */,
-				47B3346744E775FBDB31FBE2B6C10A97 /* PBXTargetDependency */,
+				E4C9D1409FCD6CCBCBBCAFF8C44CB801 /* PBXTargetDependency */,
+				FB656EA5A995104E15565B67E1B14C0E /* PBXTargetDependency */,
 			);
 			name = "Pods-MarXToolsSwift_Example";
 			productName = "Pods-MarXToolsSwift_Example";
-			productReference = E80F2273B742A055EA71935DDDADDEA0 /* Pods_MarXToolsSwift_Example.framework */;
+			productReference = 985D49C9C2C0E42BDB69B977CAF7C640 /* Pods_MarXToolsSwift_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9535624BE78F6E5D7A1A7DD48E4E5F78 /* MarXToolsSwift */ = {
+		4EC047B73EFCC7C72F3FAA88AFDB5501 /* Toast-Swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C70FDC4F9E083CC631E10CB43A41D2A6 /* Build configuration list for PBXNativeTarget "MarXToolsSwift" */;
+			buildConfigurationList = 3631792EA41DBDEC0AE92DB363423134 /* Build configuration list for PBXNativeTarget "Toast-Swift" */;
 			buildPhases = (
-				467D73D31F2B2B28BF10DC6DF62FBDE6 /* Sources */,
-				C9D2380C6E2906B0F4D40DF30CD34B2A /* Frameworks */,
-				E0703DE6B3ECD3E3D9C7AD5A1C47E1C0 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				376AFDBE5CE41DB40EAAA91095C51C35 /* PBXTargetDependency */,
-				FED66A1ACDF1C821A67E21B1804188B9 /* PBXTargetDependency */,
-			);
-			name = MarXToolsSwift;
-			productName = MarXToolsSwift;
-			productReference = A3397AF099653E92EC354164CC69F412 /* MarXToolsSwift.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A208A4F16D9A11F545C9BD3CD7B10854 /* Toaster */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 091CC8F29870AE1EE241C4E3036AAC44 /* Build configuration list for PBXNativeTarget "Toaster" */;
-			buildPhases = (
-				CF65E4D17EB18331B50CCEAC84AC4771 /* Sources */,
-				E76D9AF86C57667624BC66D207894835 /* Frameworks */,
-				9501C9F6705657B7BD1AC2F5E5740CFB /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Toaster;
-			productName = Toaster;
-			productReference = E429469DC1D8199AF4928AE3966F31E1 /* Toaster.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		CEF62CBD388DCA6AE443C186F4DD0489 /* Toast-Swift */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E9A6FD685E37FFBDA411D53D44DC1CF8 /* Build configuration list for PBXNativeTarget "Toast-Swift" */;
-			buildPhases = (
-				9052068952A3568DB3AA9AFCA48BDFB8 /* Sources */,
-				699DC22225A65B7A61521D43A881C862 /* Frameworks */,
-				FAED9692D3E85AAAD7E34B8831B5E60F /* Headers */,
+				E11D0580DBF641CF9EDB266CD2CA44E6 /* Headers */,
+				91B11A6D3C65CEE09C6CF7B20464C92B /* Sources */,
+				B12246F5F705EF4FCC80F5D9760ECD3D /* Frameworks */,
+				68729C3064B5FEC1D04250FB65DFA009 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -553,24 +486,45 @@
 			);
 			name = "Toast-Swift";
 			productName = "Toast-Swift";
-			productReference = 5B023E53EE81ABF373FDD56D9FE9FA43 /* Toast_Swift.framework */;
+			productReference = 34AD620C88FAC81583F9E5FC923E52DB /* Toast_Swift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D92B9827D050B1985B2FB0037B463B78 /* Pods-MarXToolsSwift_Tests */ = {
+		5A0E1B6FCD2B741A4B8324FEF4A5B683 /* Pods-MarXToolsSwift_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ADA6FE6934AC7EBEE32A808BD80563A8 /* Build configuration list for PBXNativeTarget "Pods-MarXToolsSwift_Tests" */;
+			buildConfigurationList = 6079F14B1EA41681AFF40C76B3E00F3F /* Build configuration list for PBXNativeTarget "Pods-MarXToolsSwift_Tests" */;
 			buildPhases = (
-				2B635DCC25EE27E10D0BF4827C01617D /* Sources */,
-				7A6C77F0643950C220DA13692BB3F241 /* Frameworks */,
-				D0322BB9EB16926ADAF6908D6982206A /* Headers */,
+				BAD2DC79E8ED987858F4571A61C69F3A /* Headers */,
+				04AAA7D654F1C51E0763484255DDE320 /* Sources */,
+				340B02DF31D67AE0499D8C26450995C5 /* Frameworks */,
+				2EA906664D443AB4E5C70AF4F2C40D5F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0B5079BD5BA3BBFC9B7C464CD7C64ED7 /* PBXTargetDependency */,
 			);
 			name = "Pods-MarXToolsSwift_Tests";
 			productName = "Pods-MarXToolsSwift_Tests";
-			productReference = 51627102436D0873C950ECC573F8A8BB /* Pods_MarXToolsSwift_Tests.framework */;
+			productReference = 7B923761305CBE70B9E652D6140E47E7 /* Pods_MarXToolsSwift_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8450D6E7783F4E159E21605A57913178 /* MarXToolsSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFB4FC2C60330DE31C3C009DB0DDDFAE /* Build configuration list for PBXNativeTarget "MarXToolsSwift" */;
+			buildPhases = (
+				2B9DCEC0666BEA895E6992AA9DDD2566 /* Headers */,
+				01C69D6E555886FE99465CD78B748440 /* Sources */,
+				3B99E3BB6E450DA62CA0FB6A102A2864 /* Frameworks */,
+				C950A10E88C5E728B6FEDA3DA1B93ED8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C134CE243E9EFBABF5F5D20113A0C998 /* PBXTargetDependency */,
+			);
+			name = MarXToolsSwift;
+			productName = MarXToolsSwift;
+			productReference = B57B0B2771F47EC87B8C6E61923A8F95 /* MarXToolsSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -590,180 +544,133 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = AC6D655E452A0C8D939B60DDAB614DA8 /* Products */;
+			productRefGroup = 874AE283C5700A8FE62050D484704B68 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9535624BE78F6E5D7A1A7DD48E4E5F78 /* MarXToolsSwift */,
-				26CC027BE8E68444BF68D84699AE1B0C /* Pods-MarXToolsSwift_Example */,
-				D92B9827D050B1985B2FB0037B463B78 /* Pods-MarXToolsSwift_Tests */,
-				CEF62CBD388DCA6AE443C186F4DD0489 /* Toast-Swift */,
-				A208A4F16D9A11F545C9BD3CD7B10854 /* Toaster */,
+				8450D6E7783F4E159E21605A57913178 /* MarXToolsSwift */,
+				384F9AC8A774A2E1D83DFF90311C44F8 /* Pods-MarXToolsSwift_Example */,
+				5A0E1B6FCD2B741A4B8324FEF4A5B683 /* Pods-MarXToolsSwift_Tests */,
+				4EC047B73EFCC7C72F3FAA88AFDB5501 /* Toast-Swift */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		2EA906664D443AB4E5C70AF4F2C40D5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68729C3064B5FEC1D04250FB65DFA009 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C950A10E88C5E728B6FEDA3DA1B93ED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC5F9AADD531B617B5892B6416BC67B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		2B635DCC25EE27E10D0BF4827C01617D /* Sources */ = {
+		01C69D6E555886FE99465CD78B748440 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADA45F55368854C00BCC1F41834684D9 /* Pods-MarXToolsSwift_Tests-dummy.m in Sources */,
+				581F1CEEBFB403B4E374B129CA704A8D /* MarXDesignButton.swift in Sources */,
+				82DC9B8C3262D379C2AE60B365246B75 /* MarXDesignLabel.swift in Sources */,
+				F81D2651B28A5762841D78664F24D594 /* MarXDesignTextField.swift in Sources */,
+				C2DD38F24B83A4FF5A67C27B4A4AD669 /* MarXDesignView.swift in Sources */,
+				792DB567A5E69C8FB69D26AA495CD22F /* MarXToolsFastClickButton.swift in Sources */,
+				2ACF424A2709DA7E69A5D76C62D605D7 /* MarXToolsPlist.swift in Sources */,
+				C3D9BB585B4023BEB7603970BBF4019F /* MarXToolsSwfit+String.swift in Sources */,
+				EFA7EF91C67F300ED9F4D3E2D5AFE64A /* MarXToolsSwift+Double.swift in Sources */,
+				7DAC78A6F67AB3AB91A0CA646D67D784 /* MarXToolsSwift+UIColor.swift in Sources */,
+				3846A7230C06BFB3849085A4CD59C22A /* MarXToolsSwift+UIImage.swift in Sources */,
+				427EE454AC8B675190896B6CFD925599 /* MarXToolsSwift+UIView.swift in Sources */,
+				B92F3898D8D829053C133B5FE34E1DBF /* MarXToolsSwift-dummy.m in Sources */,
+				FD6160DB6F3F322AB7DF4A5A41C317D5 /* MarXToolsToast.swift in Sources */,
+				230306059D2A694321792DBB259DE9F5 /* MarXToolsUserDefault.swift in Sources */,
+				34AD532B97321E28F67EDFA7E234880F /* Toast.swift in Sources */,
+				FFFD501465E8F2A325FB1C49C0060EBA /* ToastCenter.swift in Sources */,
+				B451DEE8ED333A861C5DDFCB16C63D49 /* ToastView.swift in Sources */,
+				4DBFDF5FACACE57FF919DD1090181BCD /* ToastWindow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		467D73D31F2B2B28BF10DC6DF62FBDE6 /* Sources */ = {
+		04AAA7D654F1C51E0763484255DDE320 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34F33198B5C71F2D449F8DB55A46ACBE /* MarXToolsFastClickButton.swift in Sources */,
-				3A456848AA6C15DB422CB1B18F1F6B57 /* MarXToolsPlist.swift in Sources */,
-				8177391121216628003C1C90 /* MarXDesignLabel.swift in Sources */,
-				D57DE7D992B5C1B5EE2F694E01757833 /* MarXToolsSwfit+String.swift in Sources */,
-				81641A5421476AE900BB703E /* MarXToolsSwift+Double.swift in Sources */,
-				D420BC6C11426E6B41CC447D2DA96D5B /* MarXToolsSwift+UIColor.swift in Sources */,
-				9B9B5B81D74FAC31F247D37FA0316EE0 /* MarXToolsSwift+UIView.swift in Sources */,
-				89AFE759B416603802B405EFCCCDEA70 /* MarXToolsSwift-dummy.m in Sources */,
-				8177390F21216628003C1C90 /* MarXDesignButton.swift in Sources */,
-				3237CE13CCB1E0EEF51605199168EC74 /* MarXToolsToast.swift in Sources */,
-				8177391021216628003C1C90 /* MarXDesignView.swift in Sources */,
-				E5B420F667AC4C53541FA24E74D30430 /* MarXToolsUserDefault.swift in Sources */,
-				81B0D79B21097F35002E61F3 /* MarXToolsSwift+UIImage.swift in Sources */,
-				8177390E21216628003C1C90 /* MarXDesignTextField.swift in Sources */,
+				5E813BFAC90C5CC30075C03AA8C459B0 /* Pods-MarXToolsSwift_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9052068952A3568DB3AA9AFCA48BDFB8 /* Sources */ = {
+		786D9682026290AA432745718F3DC012 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				897DAADFA85C52ACB618974C9768C0A7 /* Toast-Swift-dummy.m in Sources */,
-				7BF781CFA61FA949893EECE3C061363C /* Toast.swift in Sources */,
+				669E63ECF671E5DC5AF6318E7542E2AC /* Pods-MarXToolsSwift_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF65E4D17EB18331B50CCEAC84AC4771 /* Sources */ = {
+		91B11A6D3C65CEE09C6CF7B20464C92B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB095B30F503F51C480380A292312D9D /* Toast.swift in Sources */,
-				CD572D0497DE9891D461E26E64EAA829 /* ToastCenter.swift in Sources */,
-				9284F82E106466A85EC5934DCB5EA0D3 /* Toaster-dummy.m in Sources */,
-				2A0839F78FFC9F5F9F17646EB34C9173 /* ToastView.swift in Sources */,
-				52E99537FF4262A2F09EAF38B7A07732 /* ToastWindow.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E8C5D5F3A2386900140EFE4904BB2837 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B3172ED368BB72317F5AC75D49871C88 /* Pods-MarXToolsSwift_Example-dummy.m in Sources */,
+				07ADDDC3EBD7E82FBF83E2D946DFD1AA /* Toast-Swift-dummy.m in Sources */,
+				07359C370D58EE00578562314FDAB66C /* Toast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		376AFDBE5CE41DB40EAAA91095C51C35 /* PBXTargetDependency */ = {
+		0B5079BD5BA3BBFC9B7C464CD7C64ED7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MarXToolsSwift_Example";
+			target = 384F9AC8A774A2E1D83DFF90311C44F8 /* Pods-MarXToolsSwift_Example */;
+			targetProxy = A23F2A72681213C720D625D785CF7CD0 /* PBXContainerItemProxy */;
+		};
+		C134CE243E9EFBABF5F5D20113A0C998 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Toast-Swift";
-			target = CEF62CBD388DCA6AE443C186F4DD0489 /* Toast-Swift */;
-			targetProxy = 785CDC45FFD2DBB011AA35AB4B8AF1BE /* PBXContainerItemProxy */;
+			target = 4EC047B73EFCC7C72F3FAA88AFDB5501 /* Toast-Swift */;
+			targetProxy = B63BEEDF5D23AA85231396069FD6E09D /* PBXContainerItemProxy */;
 		};
-		47B3346744E775FBDB31FBE2B6C10A97 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Toaster;
-			target = A208A4F16D9A11F545C9BD3CD7B10854 /* Toaster */;
-			targetProxy = 7CFCC352DD1DFA7CAF6CCAB24D166ABE /* PBXContainerItemProxy */;
-		};
-		83BDFC3BCE32586E8E709C9AA0B446FC /* PBXTargetDependency */ = {
+		E4C9D1409FCD6CCBCBBCAFF8C44CB801 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MarXToolsSwift;
-			target = 9535624BE78F6E5D7A1A7DD48E4E5F78 /* MarXToolsSwift */;
-			targetProxy = 70B13EA49B34789D07776A4CC0DAC01A /* PBXContainerItemProxy */;
+			target = 8450D6E7783F4E159E21605A57913178 /* MarXToolsSwift */;
+			targetProxy = 0BD59083CE26F184DECE6088D565B94C /* PBXContainerItemProxy */;
 		};
-		D7CEF51EDF72284170792DA6C2BC8BE5 /* PBXTargetDependency */ = {
+		FB656EA5A995104E15565B67E1B14C0E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Toast-Swift";
-			target = CEF62CBD388DCA6AE443C186F4DD0489 /* Toast-Swift */;
-			targetProxy = CD2B38A351E7D217004856DB034721F2 /* PBXContainerItemProxy */;
-		};
-		FED66A1ACDF1C821A67E21B1804188B9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Toaster;
-			target = A208A4F16D9A11F545C9BD3CD7B10854 /* Toaster */;
-			targetProxy = 7BB55CA09FF7E4813CA9EC827BA8C695 /* PBXContainerItemProxy */;
+			target = 4EC047B73EFCC7C72F3FAA88AFDB5501 /* Toast-Swift */;
+			targetProxy = 79D0BD7FFE1B42E4F0C7DBAA0DC95DE7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		19F185A0F9441A007DD45B90A75125EF /* Debug */ = {
+		0BC35BD71324F9645A7A5B13AE0C566A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72F2A4AC0E05BD1D5B3ED830407303B8 /* Toaster.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Toaster/Toaster-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Toaster/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Toaster/Toaster.modulemap";
-				PRODUCT_NAME = Toaster;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		35CC911920538694C98768BEE6100EA5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96DA0CFEB62B04C682930F7E5CC66E6B /* MarXToolsSwift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MarXToolsSwift/MarXToolsSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MarXToolsSwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MarXToolsSwift/MarXToolsSwift.modulemap";
-				PRODUCT_NAME = MarXToolsSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3D6CE35907E58A7C5007BE6D27B62E30 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE3A5362ABBAB32DB628E698BD5EFAAB /* Toast-Swift.xcconfig */;
+			baseConfigurationReference = B07FC0358020C9BF5D3DB9385897D6B3 /* Toast-Swift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -780,22 +687,91 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
+				PRODUCT_MODULE_NAME = Toast_Swift;
 				PRODUCT_NAME = Toast_Swift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		45B582C339C413A5D23684618D62766B /* Debug */ = {
+		0E874B089082D84908274D07DFF0D87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C83C78A81743E3948A4155F22846252 /* Pods-MarXToolsSwift_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MarXToolsSwift_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MarXToolsSwift_Tests/Pods-MarXToolsSwift_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		15AC95F5D28A7E529D11BA868125F266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B07FC0358020C9BF5D3DB9385897D6B3 /* Toast-Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
+				PRODUCT_MODULE_NAME = Toast_Swift;
+				PRODUCT_NAME = Toast_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4A07CFBFA9F9623E83C2E6E39D60E363 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A358EE1B74FB37ED3F56EF591CBCFF54 /* Pods-MarXToolsSwift_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -815,7 +791,7 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MarXToolsSwift_Example;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -826,7 +802,7 @@
 			};
 			name = Debug;
 		};
-		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -858,6 +834,166 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		712D5B6DFA4FEA14C24CD5EDF714416D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA69F5C69A036EFF3AE02C60ACE9FCB9 /* MarXToolsSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MarXToolsSwift/MarXToolsSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MarXToolsSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MarXToolsSwift/MarXToolsSwift.modulemap";
+				PRODUCT_MODULE_NAME = MarXToolsSwift;
+				PRODUCT_NAME = MarXToolsSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		88C9E3646738E023826EC76298D2892B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9449848FA5C1C9F77D1CDD3605C916FC /* Pods-MarXToolsSwift_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MarXToolsSwift_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MarXToolsSwift_Tests/Pods-MarXToolsSwift_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		99EBC1968624DBD05139E8831BDA69F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA69F5C69A036EFF3AE02C60ACE9FCB9 /* MarXToolsSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MarXToolsSwift/MarXToolsSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MarXToolsSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MarXToolsSwift/MarXToolsSwift.modulemap";
+				PRODUCT_MODULE_NAME = MarXToolsSwift;
+				PRODUCT_NAME = MarXToolsSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -879,238 +1015,21 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		813DB36ADB6CBD7648EBBB0D0398EA2D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72F2A4AC0E05BD1D5B3ED830407303B8 /* Toaster.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Toaster/Toaster-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Toaster/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Toaster/Toaster.modulemap";
-				PRODUCT_NAME = Toaster;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		8ECE7B329240F43D758384A51F583CB3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C83C78A81743E3948A4155F22846252 /* Pods-MarXToolsSwift_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MarXToolsSwift_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MarXToolsSwift_Tests/Pods-MarXToolsSwift_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MarXToolsSwift_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9310AFD2A569D7CF11DB1C67FCAD7687 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE3A5362ABBAB32DB628E698BD5EFAAB /* Toast-Swift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
-				PRODUCT_NAME = Toast_Swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CBC3723676C36CF5786DA63A5F93F3F5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9449848FA5C1C9F77D1CDD3605C916FC /* Pods-MarXToolsSwift_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MarXToolsSwift_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MarXToolsSwift_Tests/Pods-MarXToolsSwift_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MarXToolsSwift_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E2AA1DDAFF50DE1083ADB1F5C64FFCB1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96DA0CFEB62B04C682930F7E5CC66E6B /* MarXToolsSwift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MarXToolsSwift/MarXToolsSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MarXToolsSwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MarXToolsSwift/MarXToolsSwift.modulemap";
-				PRODUCT_NAME = MarXToolsSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F90DADBA23D902EF6D78EDD86BEF7929 /* Release */ = {
+		E35A5C42B6CED9C90C965B548F2E0B9B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 14356BBEBFA46E048B281E330C274E58 /* Pods-MarXToolsSwift_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1130,10 +1049,11 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MarXToolsSwift_Example;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1144,56 +1064,47 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		091CC8F29870AE1EE241C4E3036AAC44 /* Build configuration list for PBXNativeTarget "Toaster" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				19F185A0F9441A007DD45B90A75125EF /* Debug */,
-				813DB36ADB6CBD7648EBBB0D0398EA2D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
-				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
+				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3572C25F12473123B3D20A7E344498BD /* Build configuration list for PBXNativeTarget "Pods-MarXToolsSwift_Example" */ = {
+		2DE9435F56B9BC2A5EEEBBB81C3DC0C8 /* Build configuration list for PBXNativeTarget "Pods-MarXToolsSwift_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				45B582C339C413A5D23684618D62766B /* Debug */,
-				F90DADBA23D902EF6D78EDD86BEF7929 /* Release */,
+				4A07CFBFA9F9623E83C2E6E39D60E363 /* Debug */,
+				E35A5C42B6CED9C90C965B548F2E0B9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ADA6FE6934AC7EBEE32A808BD80563A8 /* Build configuration list for PBXNativeTarget "Pods-MarXToolsSwift_Tests" */ = {
+		3631792EA41DBDEC0AE92DB363423134 /* Build configuration list for PBXNativeTarget "Toast-Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8ECE7B329240F43D758384A51F583CB3 /* Debug */,
-				CBC3723676C36CF5786DA63A5F93F3F5 /* Release */,
+				0BC35BD71324F9645A7A5B13AE0C566A /* Debug */,
+				15AC95F5D28A7E529D11BA868125F266 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C70FDC4F9E083CC631E10CB43A41D2A6 /* Build configuration list for PBXNativeTarget "MarXToolsSwift" */ = {
+		6079F14B1EA41681AFF40C76B3E00F3F /* Build configuration list for PBXNativeTarget "Pods-MarXToolsSwift_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E2AA1DDAFF50DE1083ADB1F5C64FFCB1 /* Debug */,
-				35CC911920538694C98768BEE6100EA5 /* Release */,
+				0E874B089082D84908274D07DFF0D87E /* Debug */,
+				88C9E3646738E023826EC76298D2892B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E9A6FD685E37FFBDA411D53D44DC1CF8 /* Build configuration list for PBXNativeTarget "Toast-Swift" */ = {
+		CFB4FC2C60330DE31C3C009DB0DDDFAE /* Build configuration list for PBXNativeTarget "MarXToolsSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3D6CE35907E58A7C5007BE6D27B62E30 /* Debug */,
-				9310AFD2A569D7CF11DB1C67FCAD7687 /* Release */,
+				712D5B6DFA4FEA14C24CD5EDF714416D /* Debug */,
+				99EBC1968624DBD05139E8831BDA69F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "Toaster.h"
 
 FOUNDATION_EXPORT double MarXToolsSwiftVersionNumber;
 FOUNDATION_EXPORT const unsigned char MarXToolsSwiftVersionString[];

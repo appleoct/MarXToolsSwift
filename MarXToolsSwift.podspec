@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MarXToolsSwift"
-  s.version      = "1.1.7"
+  s.version      = "1.1.8"
   s.summary      = "MarXSwfit"
 
   # This description is used to generate tags and improve search results.
@@ -115,8 +115,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'ThirdParty' do |ss|
     ss.source_files = 'MarXToolsSwift/Classes/ThirdParty/**/*'
-    ss.dependency 'Toast-Swift', '~> 3.0.1'
-    ss.dependency 'Toaster', '~> 2.1.1'
+    ss.dependency 'Toast-Swift', '4.0.0'
   end
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

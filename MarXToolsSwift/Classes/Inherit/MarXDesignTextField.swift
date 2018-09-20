@@ -55,10 +55,10 @@ public class MarXDesignTextField:UITextField {
     }
     
     public func refreshUI(){
-        self.attributedPlaceholder =  NSAttributedString.init(string:placeHolderStr, attributes: [(kCTForegroundColorAttributeName as NSAttributedStringKey) : placeHolderColor]);
+        self.attributedPlaceholder =  NSAttributedString.init(string:placeHolderStr, attributes: [(kCTForegroundColorAttributeName as NSAttributedString.Key) : placeHolderColor]);
         
-        self.removeTarget(self, action: #selector(textFieldDidChanged(_:)), for: UIControlEvents.editingChanged);
-        self.addTarget(self, action: #selector(textFieldDidChanged(_:)), for: UIControlEvents.editingChanged);
+        self.removeTarget(self, action: #selector(textFieldDidChanged(_:)), for: UIControl.Event.editingChanged);
+        self.addTarget(self, action: #selector(textFieldDidChanged(_:)), for: UIControl.Event.editingChanged);
         
         layer.cornerRadius = cornerRadius;
         layer.borderWidth = borderWidth

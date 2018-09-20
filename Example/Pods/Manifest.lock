@@ -1,30 +1,31 @@
 PODS:
-  - MarXToolsSwift (1.0.2):
-    - MarXToolsSwift/Extensions (= 1.0.2)
-    - MarXToolsSwift/Handler (= 1.0.2)
-    - MarXToolsSwift/Inherit (= 1.0.2)
-    - MarXToolsSwift/ThirdParty (= 1.0.2)
-  - MarXToolsSwift/Extensions (1.0.2)
-  - MarXToolsSwift/Handler (1.0.2)
-  - MarXToolsSwift/Inherit (1.0.2)
-  - MarXToolsSwift/ThirdParty (1.0.2):
-    - Toast-Swift (= 3.0.1)
-    - Toaster (= 2.1.1)
-  - Toast-Swift (3.0.1)
-  - Toaster (2.1.1)
+  - MarXToolsSwift (1.1.7):
+    - MarXToolsSwift/Extensions (= 1.1.7)
+    - MarXToolsSwift/Handler (= 1.1.7)
+    - MarXToolsSwift/Inherit (= 1.1.7)
+    - MarXToolsSwift/ThirdParty (= 1.1.7)
+  - MarXToolsSwift/Extensions (1.1.7)
+  - MarXToolsSwift/Handler (1.1.7)
+  - MarXToolsSwift/Inherit (1.1.7)
+  - MarXToolsSwift/ThirdParty (1.1.7):
+    - Toast-Swift (= 4.0.0)
+  - Toast-Swift (4.0.0)
 
 DEPENDENCIES:
   - MarXToolsSwift (from `../`)
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Toast-Swift
+
 EXTERNAL SOURCES:
   MarXToolsSwift:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  MarXToolsSwift: e5bbde828ca4b8f78ddb268abb8140595172c8a8
-  Toast-Swift: ba0b01b095aada709d915f9beb1d38184a2721c3
-  Toaster: a6c9532de1ded8105e77376f7dffeb2e12b46dbb
+  MarXToolsSwift: 2dfdbcc3ae434d1376ec4040781a50513b9f20e4
+  Toast-Swift: 594b5c5e5129f15438e410207e43287f027b3c00
 
 PODFILE CHECKSUM: 7f2e6e4031db834506b30dc1fa230e0e4453307e
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.5.3

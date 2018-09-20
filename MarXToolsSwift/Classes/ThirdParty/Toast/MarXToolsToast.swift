@@ -8,7 +8,6 @@
 
 import Foundation
 import Toast_Swift
-import Toaster
 
 public var kMarXToolsToastDefaultTime = 1.5
 

@@ -27,6 +27,10 @@
 		81B0D79921097E2F002E61F3 /* MarXToolsSwift+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B0D79821097E2F002E61F3 /* MarXToolsSwift+UIImage.swift */; };
 		81CF16DE20F8421D00D6831D /* MarXToolsFastClickButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CF16DD20F8421D00D6831D /* MarXToolsFastClickButton.swift */; };
 		81CF16E620F87BBB00D6831D /* MarXToolsToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CF16E520F87BBB00D6831D /* MarXToolsToast.swift */; };
+		81FB5BBC2153930C00014839 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FB5BB72153930B00014839 /* Toast.swift */; };
+		81FB5BBD2153930C00014839 /* ToastCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FB5BB82153930C00014839 /* ToastCenter.swift */; };
+		81FB5BBE2153930C00014839 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FB5BBA2153930C00014839 /* ToastView.swift */; };
+		81FB5BBF2153930C00014839 /* ToastWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FB5BBB2153930C00014839 /* ToastWindow.swift */; };
 		EAC71BBFD17A888FD61537DC /* Pods_MarXToolsSwift_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49B543CEB8DF52F48609B25 /* Pods_MarXToolsSwift_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +72,11 @@
 		81B0D79821097E2F002E61F3 /* MarXToolsSwift+UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MarXToolsSwift+UIImage.swift"; sourceTree = "<group>"; };
 		81CF16DD20F8421D00D6831D /* MarXToolsFastClickButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarXToolsFastClickButton.swift; sourceTree = "<group>"; };
 		81CF16E520F87BBB00D6831D /* MarXToolsToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarXToolsToast.swift; sourceTree = "<group>"; };
+		81FB5BB72153930B00014839 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		81FB5BB82153930C00014839 /* ToastCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastCenter.swift; sourceTree = "<group>"; };
+		81FB5BB92153930C00014839 /* Toaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Toaster.h; sourceTree = "<group>"; };
+		81FB5BBA2153930C00014839 /* ToastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		81FB5BBB2153930C00014839 /* ToastWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastWindow.swift; sourceTree = "<group>"; };
 		9F3C83AE05597B8A690FCCEC /* Pods_MarXToolsSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarXToolsSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A923741DC207259ECD790D87 /* Pods-MarXToolsSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarXToolsSwift_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MarXToolsSwift_Example/Pods-MarXToolsSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BAEE186EE6FBB50962AAF2C8 /* MarXToolsSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MarXToolsSwift.podspec; path = ../MarXToolsSwift.podspec; sourceTree = "<group>"; };
@@ -242,6 +251,7 @@
 		81CF16E120F858EC00D6831D /* ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
+				81FB5BB6215392E500014839 /* Toaster */,
 				81CF16E220F858FE00D6831D /* Toast */,
 			);
 			path = ThirdParty;
@@ -253,6 +263,18 @@
 				81CF16E520F87BBB00D6831D /* MarXToolsToast.swift */,
 			);
 			path = Toast;
+			sourceTree = "<group>";
+		};
+		81FB5BB6215392E500014839 /* Toaster */ = {
+			isa = PBXGroup;
+			children = (
+				81FB5BB72153930B00014839 /* Toast.swift */,
+				81FB5BB82153930C00014839 /* ToastCenter.swift */,
+				81FB5BB92153930C00014839 /* Toaster.h */,
+				81FB5BBA2153930C00014839 /* ToastView.swift */,
+				81FB5BBB2153930C00014839 /* ToastWindow.swift */,
+			);
+			path = Toaster;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,7 +289,6 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				07C5490E816AEEDA59384CD0 /* [CP] Embed Pods Frameworks */,
-				87F4BF49A1A1F4E3744A6227 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -286,8 +307,6 @@
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				2DA61CA92029B3D34AAFD8D3 /* [CP] Embed Pods Frameworks */,
-				DCE61B11A50452C79A124B7F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -369,13 +388,11 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-MarXToolsSwift_Example/Pods-MarXToolsSwift_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MarXToolsSwift/MarXToolsSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
-				"${BUILT_PRODUCTS_DIR}/Toaster/Toaster.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MarXToolsSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toaster.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -400,21 +417,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2DA61CA92029B3D34AAFD8D3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MarXToolsSwift_Tests/Pods-MarXToolsSwift_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		544D0841F520552D7D933FD3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -433,36 +435,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		87F4BF49A1A1F4E3744A6227 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MarXToolsSwift_Example/Pods-MarXToolsSwift_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DCE61B11A50452C79A124B7F /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MarXToolsSwift_Tests/Pods-MarXToolsSwift_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -471,12 +443,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				81FB5BBC2153930C00014839 /* Toast.swift in Sources */,
 				81AF75FE20F6E5B0003AB709 /* MarXToolsSwift+UIView.swift in Sources */,
 				81CF16DE20F8421D00D6831D /* MarXToolsFastClickButton.swift in Sources */,
 				817739072121652E003C1C90 /* MarXDesignTextField.swift in Sources */,
 				81641A5221476AA300BB703E /* MarXToolsSwift+Double.swift in Sources */,
+				81FB5BBD2153930C00014839 /* ToastCenter.swift in Sources */,
 				817739092121652E003C1C90 /* MarXDesignLabel.swift in Sources */,
 				81B0D79921097E2F002E61F3 /* MarXToolsSwift+UIImage.swift in Sources */,
+				81FB5BBF2153930C00014839 /* ToastWindow.swift in Sources */,
 				81AF75FC20F6E5B0003AB709 /* MarXToolsSwift+UIColor.swift in Sources */,
 				817739062121652E003C1C90 /* MarXDesignButton.swift in Sources */,
 				81AF760220F6E66B003AB709 /* MarXToolsPlist.swift in Sources */,
@@ -484,6 +459,7 @@
 				81CF16E620F87BBB00D6831D /* MarXToolsToast.swift in Sources */,
 				817739082121652E003C1C90 /* MarXDesignView.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				81FB5BBE2153930C00014839 /* ToastView.swift in Sources */,
 				81AF760420F6E700003AB709 /* MarXToolsUserDefault.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -640,7 +616,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -655,7 +631,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};

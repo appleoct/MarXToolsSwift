@@ -1,24 +1,21 @@
 {
   "name": "MarXToolsSwift",
-  "version": "1.0.2",
-  "summary": "MarXSwfit Repo",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://gitee.com/erliucxy/MarXToolsSwift",
-  "license": {
-    "type": "MIT",
-    "file": "LICENSE"
-  },
+  "version": "1.1.7",
+  "summary": "MarXSwfit",
+  "description": "Nothing to said",
+  "homepage": "https://github.com/codeRiding/MarXToolsSwift",
+  "license": "MIT",
   "authors": {
     "codeRiding": "coderiding@gmail.com"
-  },
-  "source": {
-    "git": "https://gitee.com/erliucxy/MarXToolsSwift.git",
-    "tag": "1.0.2"
   },
   "frameworks": [
     "UIKit",
     "AVFoundation"
   ],
+  "source": {
+    "git": "https://github.com/codeRiding/MarXToolsSwift.git",
+    "tag": "1.1.7"
+  },
   "platforms": {
     "ios": "8.0"
   },
@@ -40,10 +37,7 @@
       "source_files": "MarXToolsSwift/Classes/ThirdParty/**/*",
       "dependencies": {
         "Toast-Swift": [
-          "3.0.1"
-        ],
-        "Toaster": [
-          "2.1.1"
+          "4.0.0"
         ]
       }
     }
