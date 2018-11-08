@@ -23,4 +23,9 @@ extension Double {
     {
         return String.init(format: "%.1f", self);
     }
+    
+    public var lws_0DotNumberString:String
+    {
+        return String.init(format: "%.0f", self);
+    }
 }
